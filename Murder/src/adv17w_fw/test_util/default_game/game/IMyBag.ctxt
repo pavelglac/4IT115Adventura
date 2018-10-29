@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IMyBag
+comment0.text=\r\n//%L+\ CZ\r\n\ Instance\ interfejsu\ {@code\ IMyBag}\ p\u0159edstavuj\u00ED\ ...\r\n\r\n\ @param\ <TI>\ Typ\ h-objekt\u016F\r\n\ @param\ <TP>\ Type\ prostor\u016F\ hry\r\n//%Lx\ EN\r\n\ The\ {@code\ IMyBag}\ interface\ instances\ represent\ ...\r\n\r\n\ @param\ <TI>\ Type\ of\ items\r\n\ @param\ <TP>\ Type\ of\ places\r\n//%L-\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 0.00.0000\ \u2014\ 20yy-mm-dd\r\n
+comment1.params=
+comment1.target=boolean\ isFull()
+comment1.text=\r\n\ Returns\ information\ if\ the\ bag\ is\ full,\r\n\ or\ if\ some\ item\ can\ be\ still\ put\ in.\r\n\r\n\ @return\ {@code\ true}\ if\ it\ is\ full,\ {@code\ false}\ otherwise\r\n
+comment2.params=
+comment2.target=void\ initialize()
+comment2.text=\r\n\ The\ method\ initializing\ the\ bag.\r\n\ As\ the\ player\ of\ this\ game\ has\ an\ empty\ bag\ at\ the\ game\ beginning,\r\n\ this\ method\ can\ only\ clean\ the\ {@link\ \#items}\ collection.\r\n
+comment3.params=item
+comment3.target=boolean\ tryAddItem(IMyItem)
+comment3.text=\r\n\ If\ the\ given\ item\ fits\ to\ the\ bag,\ it\ adds\ it;\r\n\ after\ that\ it\ returns\ the\ message\ on\ the\ result.\r\n\r\n\ @param\ item\ The\ item\ that\ has\ to\ be\ added\ into\ the\ bag\r\n\ @return\ The\ message\ on\ the\ result\:\ {@code\ true}\ \=\ was\ added,\r\n\ \ \ \ \ \ \ \ \ {@code\ false}\ \=\ was\ not\ added\r\n
+numComments=4

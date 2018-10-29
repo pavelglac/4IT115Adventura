@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EmptyGSMFactoryG
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ EmptyGSMFactory\ }\ class\ represent\r\n\ the\ factory\ objects\ which\ are\ able\ to\ deliver\ the\ game\ instance,\r\n\ an\ instance\ of\ scenario\ manager\ of\ this\ game\r\n\ and\ an\ instance\ of\ the\ text\ user\ interface.\r\n\ As\ long\ as\ some\ of\ these\ objects\ are\ not\ yet\ fully\ defined,\r\n\ the\ methods\ throw\ the\r\n\ {@link\ eu.pedu.adv17w_fw.utilities.UncompletedMethodException}.\r\n\ <p>\r\n\ In\ the\ first\ stage\ of\ the\ whole\ application\ development\ only\ the\ method\r\n\ {@link\ \#getScenarioManager()}\ allowing\ to\ obtain\r\n\ the\ scenario\ manager\ instance\ is\ active.\r\n\ Bodies\ of\ remaining\ methods\ are\ commented.\r\n\ In\ the\ next\ development\ stages\ also\ these\ methods\ are\ uncommented.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2017-Summer\r\n
+comment1.params=
+comment1.target=EmptyGSMFactoryG()
+comment1.text=\r\n\ Creates\ the\ factory\ object\ providing\ the\ key\ application\ objects.\r\n
+numComments=2

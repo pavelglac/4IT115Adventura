@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GSMTMultiFactory
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ GSMTMultiFactory}\ p\u0159edstavuj\u00ED\ tov\u00E1rn\u00ED\ objekty,\r\n\ kter\u00E9\ jsou\ schopny\ na\ po\u017E\u00E1d\u00E1n\u00ED\ dodat\ instanci\ hry,\r\n\ instanci\ spr\u00E1vce\ sc\u00E9n\u00E1\u0159\u016F\ t\u00E9to\ hry\r\n\ a\ instanci\ textov\u00E9ho\ u\u017Eivatelsk\u00E9ho\ rozhran\u00ED.\r\n\ Dokud\ je\u0161t\u011B\ n\u011Bkter\u00E9\ z\ t\u011Bchto\ objekt\u016F\ nejsou\ definov\u00E1ny,\r\n\ vyhazuj\u00ED\ p\u0159\u00EDslu\u0161n\u00E9\ metody\ v\u00FDjimku\r\n\ {@link\ eu.pedu.adv17w_fw.utilities.UncompletedMethodException}.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=supplier
+comment1.target=void\ setScenarioManager(java.util.function.Supplier)
+comment1.text=\r\n\ Nastav\u00ED\ metodu,\ kter\u00E1\ bude\ vracet\ instanci\ spr\u00E1vce\ sc\u00E9n\u00E1\u0159\u016F.\r\n\ Metoda\ nen\u00ED\ vl\u00E1knov\u011B\ zabezpe\u010Den\u00E1,\r\n\ proto\u017Ee\ nep\u0159edpokl\u00E1d\u00E1\ vol\u00E1n\u00ED\ z\ v\u00EDce\ vl\u00E1ken.\r\n\r\n\ @param\ supplier\ Metoda\ vracej\u00EDc\u00ED\ zadan\u00E9ho\ spr\u00E1vce\ sc\u00E9n\u00E1\u0159\u016F\r\n
+comment2.params=
+comment2.target=GSMTMultiFactory()
+comment2.text=\r\n\ Vytvo\u0159\u00ED\ tov\u00E1rn\u00ED\ objekt\ poskytuj\u00EDc\u00ED\ kl\u00ED\u010Dov\u00E9\ objekty\ aplikace.\r\n
+comment3.params=
+comment3.target=java.lang.Class\ getFactoryClass()
+comment3.text=\r\n\ Returns\ the\ class-object\ of\ the\ factory\ class,\ the\ instances\ of\ which\r\n\ can\ mediate\ receiving\ of\ all\ key\ objects\ of\ the\ application,\r\n\ the\ part\ of\ which\ also\ the\ mother\ class\ of\ this\ instance\ is.\r\n\r\n\ @return\ The\ class-object\ of\ the\ factory\ class\r\n
+comment4.params=
+comment4.target=eu.pedu.adv17w_fw.scenario.AScenarioManager\ getScenarioManager()
+comment4.text=\r\n\ Vr\u00E1t\u00ED\ odkaz\ na\ instanci\ spr\u00E1vce\ sc\u00E9n\u00E1\u0159\u016F.\r\n\r\n\ @return\ Po\u017Eadovan\u00FD\ odkaz\r\n
+comment5.params=
+comment5.target=eu.pedu.adv17w_fw.game_txt.IUI\ getUI()
+comment5.text=\r\n\ Vr\u00E1t\u00ED\ odkaz\ na\ instanci\ t\u0159\u00EDdy\ realizuj\u00EDc\u00ED\ u\u017Eivatelsk\u00E9\ rozhran\u00ED.\r\n\r\n\ @return\ Po\u017Eadovan\u00FD\ odkaz\r\n
+numComments=6

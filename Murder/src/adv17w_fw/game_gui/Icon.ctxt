@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Icon
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ Icon}\ p\u0159edstavuj\u00ED\ obr\u00E1zky\ definovan\u00E9\ tak,\r\n\ aby\ je\ bylo\ mo\u017Eno\ pou\u017E\u00EDt\ nez\u00E1visle\ na\ tom,\ pracuje-li\ aplikace\r\n\ nad\ platformou\ <i>Swing</i>\ nebo\ <i>JavaFX</i>.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=url
+comment1.target=Icon(java.net.URL)
+comment1.text=\r\n\ Vytvo\u0159\u00ED\ objekt,\ kter\u00FD\ m\u016F\u017Ee\ vystupovat\ v\ roli\ obr\u00E1zku\ v\ obou\ knihovn\u00E1ch,\r\n\ tj.\ jak\ v\ knihovn\u011B\ swing,\ tak\ v\ knihovn\u011B\ JavaFX.\r\n\r\n\ @param\ url\ URL\ adresa\ souboru\ s\ obr\u00E1zkem\r\n
+comment2.params=
+comment2.target=int\ getIconHeight()
+comment2.text=\r\n\ Returns\ the\ icon's\ height.\r\n\r\n\ @return\ an\ int\ specifying\ the\ fixed\ height\ of\ the\ icon.\r\n
+comment3.params=
+comment3.target=int\ getIconWidth()
+comment3.text=\r\n\ Returns\ the\ icon's\ width.\r\n\r\n\ @return\ an\ int\ specifying\ the\ fixed\ width\ of\ the\ icon.\r\n
+comment4.params=c\ g\ x\ y
+comment4.target=void\ paintIcon(java.awt.Component,\ java.awt.Graphics,\ int,\ int)
+comment4.text=\r\n\ Draw\ the\ icon\ at\ the\ specified\ location.\r\n\ Icon\ implementations\ may\ use\ the\ {@link\ Component}\ argument\r\n\ to\ get\ properties\ useful\ for\ painting,\r\n\ e.g.\ the\ foreground\ or\ background\ color.\r\n\r\n\ @param\ c\ \ P\u0159\u00EDpadn\u00E1\ komponenta\ s\ pomocn\u00FDmi\ informacemi\r\n\ @param\ g\ \ Graphic\ context\r\n\ @param\ x\ \ Horizontal\ coordinate\r\n\ @param\ y\ \ Veritcal\ coordinate\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

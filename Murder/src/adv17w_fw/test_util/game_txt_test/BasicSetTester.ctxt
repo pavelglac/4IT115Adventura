@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=BasicSetTester
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ BasicSetTester}\ p\u0159edstavuj\u00ED\ testery\ prov\u011B\u0159uj\u00EDc\u00ED\r\n\ z\u00E1kladn\u00ED\ \u0159e\u0161en\u00ED\ v\u00FDchoz\u00EDho\ zad\u00E1n\u00ED\ bez\ jak\u00FDchkoliv\ dodate\u010Dn\u00FDch\ modifikac\u00ED.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=BasicSetTester()
+comment1.text=\r\n\ Vytvo\u0159\u00ED\ tester\ prov\u011B\u0159uj\u00EDc\u00ED\ \u0159e\u0161en\u00ED\ z\u00E1kladn\u00EDho\ zad\u00E1n\u00ED.\r\n
+numComments=2

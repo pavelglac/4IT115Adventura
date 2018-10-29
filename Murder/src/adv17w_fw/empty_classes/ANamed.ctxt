@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ANamed
+comment0.text=\r\n\ Instances\ of\ the\ abstract\ class\ {@code\ ANamed}\ represent\r\n\ parent\ sub-objects\ of\ named\ objects,\r\n\ i.e.\ of\ instances\ of\ classes\ implementing\ the\ {@link\ INamed}\ interface.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2017-Summer\r\n
+comment1.params=name
+comment1.target=ANamed(java.lang.String)
+comment1.text=\r\n\ Creates\ a\ parent\ sub-object\ of\ the\ instance\ with\ the\ given\ name.\r\n\ The\ constructor\ checks\ that\ the\ given\ name\ is\ neither\ {@code\ null}\r\n\ nor\ the\ empty\ string,\ and\ if\ the\ named\ object\ is\ not\ the\ game\ itself,\r\n\ its\ name\ does\ not\ contain\ any\ whitespaces.\r\n\r\n\ @param\ name\ Name\ of\ the\ creating\ instance\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ the\ name\ of\ the\ instance.\r\n\r\n\ @return\ Name\ of\ the\ instance\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ the\ textual\ signature\ of\ this\ instance\r\n\ which\ is\ equal\ to\ its\ name.\r\n\r\n\ @return\ Name\ of\ the\ instance\r\n
+numComments=4

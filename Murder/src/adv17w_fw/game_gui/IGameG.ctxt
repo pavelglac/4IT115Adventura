@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IGameG
+comment0.text=\r\n\ Instance\ interfejsu\ {@code\ IGameG}\ maj\u00ED\ na\ starosti\ logiku\ hry.\r\n\ Jsou\ schopny\ akceptovat\ jednotliv\u00E9\ p\u0159\u00EDkazy\ a\ poskytovat\ informace\r\n\ o\ pr\u016Fb\u011B\u017En\u00E9m\ stavu\ hry\ a\ jej\u00EDch\ sou\u010D\u00E1stech.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=IBagG\ getBag()
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ odkaz\ na\ batoh,\ do\ n\u011Bj\u017E\ bude\ hr\u00E1\u010D\ ukl\u00E1dat\ sebran\u00E9\ p\u0159edm\u011Bty.\r\n\r\n\ @return\ Po\u017Eadovan\u00FD\ odkaz\r\n
+comment2.params=
+comment2.target=java.net.URL\ getHelpURL()
+comment2.text=\r\n\ Vr\u00E1t\u00ED\ URL\ adresu\ str\u00E1nky\ s\ n\u00E1pov\u011Bdou.\r\n\r\n\ @return\ URL\ adresa\ str\u00E1nky\ s\ n\u00E1pov\u011Bdou\r\n
+comment3.params=
+comment3.target=Icon\ getMap()
+comment3.text=\r\n\ Vr\u00E1t\u00ED\ obr\u00E1zek\ s\ pl\u00E1nkem\ prostoru,\ v\ n\u011Bm\u017E\ se\ hraje.\r\n\r\n\ @return\ Obr\u00E1zek\ s\ pl\u00E1nkem\ prostoru\r\n
+comment4.params=
+comment4.target=Icon\ getPlayer()
+comment4.text=\r\n\ Vr\u00E1t\u00ED\ obr\u00E1zek\ hr\u00E1\u010De,\ kter\u00FD\ bude\ zobrazov\u00E1n\ na\ pl\u00E1nku\ hry,\r\n\ aby\ u\u017Eivatel\ v\u011Bd\u011Bl,\ ve\ kter\u00E9m\ prostoru\ se\ jeho\ hr\u00E1\u010D\ aktu\u00E1ln\u011B\ nach\u00E1z\u00ED.\r\n\r\n\ @return\ Obr\u00E1zek\ hr\u00E1\u010De\r\n
+comment5.params=
+comment5.target=IWorldG\ getWorld()
+comment5.text=\r\n\ Vr\u00E1t\u00ED\ odkaz\ na\ sv\u011Bt,\ v\ n\u011Bm\u017E\ se\ hra\ odehr\u00E1v\u00E1.\r\n\r\n\ @return\ Sv\u011Bt,\ v\ n\u011Bm\u017E\ se\ hra\ odehr\u00E1v\u00E1\r\n
+numComments=6

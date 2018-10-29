@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Framework
+comment0.text=\r\n\ Knihovn\u00ED\ t\u0159\u00EDda\ {@code\ Framework}\ obsahuje\ konstanty\ a\ metody\r\n\ sd\u00EDlen\u00E9\ r\u016Fzn\u00FDmi\ t\u0159\u00EDdami\ nap\u0159\u00ED\u010D\ aplikac\u00ED.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2017-Summer\r\n
+comment1.params=
+comment1.target=game_txt.IGSMFactory\ getDefaultFactory()
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ instanci\ implicitn\u00ED\ hry\ implementuj\u00EDc\u00ED\ interfejs\ {@link\ IGame},\r\n\ tj.\ hry\ p\u0159edpokl\u00E1daj\u00EDc\u00ED\ pou\u017Eit\u00ED\ textov\u00E9ho\ u\u017Eivatelsk\u00E9ho\ rozhran\u00ED.\r\n\r\n\ @return\ Instance\ implicitn\u00ED\ textov\u00E9\ hry\r\n
+comment2.params=
+comment2.target=java.lang.String\ getVersion()
+comment2.text=\r\n\ Metoda\ vrac\u00ED\ textov\u00FD\ \u0159et\u011Bzec\ definuj\u00EDc\u00ED\ aktu\u00E1ln\u00ED\ verzi\ frameworku.\r\n\r\n\ @return\ \u0158et\u011Bzec\ definuj\u00EDc\u00ED\ aktu\u00E1ln\u00ED\ verzi\ frameworku\r\n
+comment3.params=
+comment3.target=Framework()
+comment3.text=\r\n\ Konstruktor\ nen\u00ED\ definov\u00E1n\ jako\ soukrom\u00FD,\ aby\ bylo\ mo\u017Eno\ definovat\r\n\ potomka\ specializovan\u00E9ho\ na\ podporu\ tvorby\ a\ testov\u00E1n\u00ED\ GUI.\r\n
+numComments=4

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=GSMFactoryG_Apartment
+comment1.params=
+comment1.target=GSMFactoryG_Apartment()
+comment1.text=\r\n\ Creates\ the\ factory\ object\ providing\ the\ key\ application\ objects.\r\n
+comment2.params=
+comment2.target=java.lang.Class\ getFactoryClass()
+comment2.text=\r\n\ Returns\ the\ class-object\ of\ the\ factory\ class,\ the\ instances\ of\ which\r\n\ can\ mediate\ receiving\ of\ all\ key\ objects\ of\ the\ application,\r\n\ the\ part\ of\ which\ also\ the\ mother\ class\ of\ this\ instance\ is.\r\n\r\n\ @return\ The\ class-object\ of\ the\ factory\ class\r\n
+comment3.params=
+comment3.target=eu.pedu.adv17w_fw.scenario.AScenarioManagerG\ getScenarioManager()
+comment3.text=\r\n\ Returns\ the\ instance\ of\ the\ scenario\ manager.\r\n\r\n\ @return\ Required\ scenario\ manager\r\n
+comment4.params=
+comment4.target=eu.pedu.adv17w_fw.game_gui.IUIG\ getUI()
+comment4.text=\r\n\ Returns\ the\ object\ executing\ the\ user\ interface.\r\n\r\n\ @return\ Required\ user\ interface\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ Metoda\ spou\u0161t\u011Bj\u00EDc\u00ED\ celou\ aplikaci.\r\n\r\n\ @param\ args\ Parametry\ p\u0159\u00EDkazov\u00E9ho\ \u0159\u00E1dku\r\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ATester
+comment0.text=\r\n\ T\u0159\u00EDda\ {@code\ ATester}\ slou\u017E\u00ED\ jako\ rodi\u010Dovsk\u00E1\ t\u0159\u00EDda\ r\u016Fzn\u00FDch\ testovac\u00EDch\ t\u0159\u00EDd,\r\n\ jejich\u017E\ instanc\u00EDm\ poskytuje\ metody\ testuj\u00EDc\u00ED\ n\u011Bkter\u00E9\ z\u00E1kladn\u00ED\ vlastnosti\r\n\ spolu\ s\ metodou\ definuj\u00EDc\u00ED\ reakci\ na\ chybu;\r\n\ jej\u00ED\ instance\ si\ nav\u00EDc\ pamatuje\ tov\u00E1rn\u00ED\ objekt\ testovan\u00E9\ aplikace.\r\n\ <p>\r\n\ T\u0159\u00EDda\ nedefinuje\ abstraktn\u00ED\ testovac\u00ED\ metodu,\r\n\ proto\u017Ee\ ka\u017Ed\u00FD\ z\ jejich\ potomk\u016F\ m\u016F\u017Ee\ testovat\ n\u011Bco\ jin\u00E9ho\r\n\ s\ jin\u00FDmi\ po\u017Eadovan\u00FDmi\ vstupn\u00EDmi\ informacemi.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=factory
+comment1.target=ATester(eu.pedu.adv17w_fw.game_txt.IGSMFactory)
+comment1.text=\r\n\ Rodi\u010Dovsk\u00FD\ konstruktor\ potomk\u016F,\ kter\u00E9\ nep\u0159edstavuj\u00ED\ ko\u0159enov\u00E9\ testery,\r\n\ a\ po\u010D\u00EDtaj\u00ED\ proto\ s\ t\u00EDm,\ \u017Ee\ z\u00E1kladn\u00ED\ prvky\ aplikace\ jsou\ ji\u017E\ otestov\u00E1ny.\r\n\r\n\ @param\ factory\ Tov\u00E1rn\u00ED\ objekt\ schopn\u00FD\ dodat\ objekty,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ kter\u00E9\ se\ maj\u00ED\ testovat\r\n
+comment2.params=factory\ testLevel
+comment2.target=ATester(eu.pedu.adv17w_fw.game_txt.IGSMFactory,\ int)
+comment2.text=\r\n\ Rodi\u010Dovsk\u00FD\ konstruktor\ ko\u0159enov\u00FDch\ tester\u016F,\ kter\u00E9\ zahajuj\u00ED\ testov\u00E1n\u00ED\r\n\ a\ prov\u011B\u0159uj\u00ED\ proto\ na\ po\u010D\u00E1tku\ z\u00E1kladn\u00ED\ objekty\ cel\u00E9\ aplikace.\r\n\r\n\ @param\ factory\ \ \ Tov\u00E1rn\u00ED\ objekt\ schopn\u00FD\ dodat\ objekty,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ kter\u00E9\ se\ maj\u00ED\ testovat\r\n\ @param\ testLevel\ Hladina\ dokon\u010Denosti\ aplikace\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ s\ n\u00ED\ spojen\u00E1\ hladina\ testov\u00E1n\u00ED\r\n
+comment3.params=format\ arguments
+comment3.target=void\ ERROR(java.lang.String,\ java.lang.Object[])
+comment3.text=\r\n\ Vytiskne\ chybov\u00E9\ hl\u00E1\u0161en\u00ED\ a\ vyhod\u00ED\ v\u00FDjimku\ {@code\ TestException}.\r\n\r\n\ @param\ format\ Form\u00E1t\ tisku\ chybov\u00E9ho\ hl\u00E1\u0161en\u00ED\ ve\ stylu\ {@code\ printf}.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Bude\ je\u0161t\u011B\ dopln\u011Bn\ spole\u010Dnou\ \u00FAvodn\u00ED\ a\ z\u00E1v\u011Bre\u010Dnou\ sekvenc\u00ED.\r\n\ @param\ arguments\ P\u0159\u00EDpadn\u00E9\ dal\u0161\u00ED\ parametry\ k\ tisku\r\n
+comment4.params=description\ text
+comment4.target=void\ checkMessageLength(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Prov\u011B\u0159\u00ED\ d\u00E9lku\ \u0159\u00E1dk\u016F\ zadan\u00E9ho\ textu.\r\n\ Tento\ test\ vyu\u017E\u00EDvaj\u00ED\ testery\ sc\u00E9n\u00E1\u0159\u016F\ spolu\ s\ testery\ b\u011Bhu\ hry.\r\n\r\n\ @param\ description\ Popis\ prov\u011B\u0159ovan\u00E9ho\ textu\r\n\ @param\ text\ \ \ \ \ \ \ \ Prov\u011B\u0159ovan\u00FD\ text\r\n
+comment5.params=factory\ testLevel
+comment5.target=void\ checkFactory(eu.pedu.adv17w_fw.game_txt.IGSMFactory,\ int)
+comment5.text=\r\n\ Prov\u011B\u0159\u00ED\ tov\u00E1rn\u00ED\ objekt\ a\ j\u00EDm\ generovan\u00E9\ objekty.\r\n\r\n\ @param\ factory\ \ \ Tov\u00E1rn\u00ED\ objekt\ schopn\u00FD\ dodat\ objekty,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ kter\u00E9\ se\ maj\u00ED\ testovat\r\n\ @param\ testLevel\ Hladina\ dokon\u010Denosti\ aplikace\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ s\ n\u00ED\ spojen\u00E1\ hladina\ testov\u00E1n\u00ED\r\n
+numComments=6

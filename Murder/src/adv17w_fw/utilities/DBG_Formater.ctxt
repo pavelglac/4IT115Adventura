@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DBG_Formater
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ DBG_Formater}\ p\u0159edstavuj\u00ED\ form\u00E1tova\u010De\ zpr\u00E1v\r\n\ zaznamen\u00E1van\u00FDch\ p\u0159\u00EDslu\u0161n\u00FDm\ loggerem.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=DBG_Formater()
+comment1.text=\r\n\r\n
+comment2.params=record
+comment2.target=java.lang.String\ format(java.util.logging.LogRecord)
+comment2.text=\r\n\ Vr\u00E1t\u00ED\ zform\u00E1tovanou\ obdr\u017Eenou\ zpr\u00E1vu,\r\n\ av\u0161ak\ na\ rozd\u00EDl\ od\ standardn\u00EDho\ form\u00E1tova\u010De\ k\ n\u00ED\ nep\u0159id\u00E1v\u00E1\r\n\ \u017E\u00E1dn\u00E9\ dodate\u010Dn\u00E9\ texty\ (\u010Das,\ zdroj\ apod.).\r\n\r\n\ @param\ record\ Z\u00E1znam\ se\ zpr\u00E1vou\r\n\ @return\ V\u00FDsledn\u00FD\ form\u00E1tovan\u00FD\ text\r\n
+numComments=3

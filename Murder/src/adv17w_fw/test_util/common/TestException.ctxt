@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TestException
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ TestException}\ p\u0159edstavuj\u00ED\ v\u00FDjimky\ vyhazovan\u00E9\r\n\ p\u0159i\ odhalen\u00ED\ nesrovnalost\u00ED\ v\ pr\u016Fb\u011Bhu\ testov\u00E1n\u00ED.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=TestException()
+comment1.text=\r\n\ Vytvo\u0159\u00ED\ novou\ v\u00FDjimku\ bez\ explicitn\u011B\ zadan\u00E9\ zpr\u00E1vy\ a\ p\u0159\u00ED\u010Diny\ (cause).\r\n\ P\u0159\u00ED\u010Dinu\ lze\ dodate\u010Dn\u011B\ zadat\ zavol\u00E1n\u00EDm\ metody\ {@link\ \#initCause}.\r\n
+comment2.params=message
+comment2.target=TestException(java.lang.String)
+comment2.text=\r\n\ Vytvo\u0159\u00ED\ novou\ v\u00FDjimku\ se\ zadanou\ detailn\u00ED\ zpr\u00E1vou,\r\n\ av\u0161ak\ bez\ zadan\u00E9\ p\u0159\u00ED\u010Diny\ (cause).\r\n\ P\u0159\u00ED\u010Dinu\ lze\ dodate\u010Dn\u011B\ zadat\ zavol\u00E1n\u00EDm\ metody\ {@link\ \#initCause}.\r\n\r\n\ @param\ message\ Detailn\u00ED\ zpr\u00E1va,\ kterou\ lze\ n\u00E1sledn\u011B\ z\u00EDskat\ zavol\u00E1n\u00EDm\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ metody\ {@link\ \#getMessage()}.\r\n
+comment3.params=cause
+comment3.target=TestException(java.lang.Throwable)
+comment3.text=\r\n\ Vytvo\u0159\u00ED\ novou\ s\ explicitn\u011B\ zadanou\ p\u0159\u00ED\u010Dinou\ a\ detailn\u00ED\ zpr\u00E1vou\r\n\ zadanou\ podle\ vzorce\ {@code\ (cause\=\=null\ ?\ null\ \:\ cause.toString())}.\r\n\ Tento\ konstruktor\ je\ vhodn\u00FD\ pro\ v\u00FDjimky,\ kter\u00E9\ jsou\ ve\ skute\u010Dnosti\r\n\ pouh\u00FDmi\ obaly\ (wrappers)\ v\u00FDjimky\ {@code\ cause}.\r\n\r\n\ @param\ cause\ V\u00FDjimka,\ kter\u00E1\ typicky\ zp\u016Fsobila\ vyhozen\u00ED\ dan\u00E9\ v\u00FDjimky\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ kterou\ lze\ pozd\u011Bji\ z\u00EDskat\ vol\u00E1n\u00EDm\ {@link\ \#getCause()}.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ Hodnota\ {@code\ null}\ je\ povolena\ a\ indikuje,\ \u017Ee\ p\u0159\u00ED\u010Dinu\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ vyhozen\u00ED\ dan\u00E9\ v\u00FDjimky\ nezn\u00E1me\ a\ nebo\ dokonce\ nen\u00ED.\r\n
+comment4.params=message\ cause
+comment4.target=TestException(java.lang.String,\ java.lang.Throwable)
+comment4.text=\r\n\ Vytvo\u0159\u00ED\ novou\ v\u00FDjimku\ s\ explicitn\u011B\ zadanou\ zpr\u00E1vou\ i\ p\u0159\u00ED\u010Dinou.\r\n\r\n\ @param\ message\ \ Detailn\u00ED\ zpr\u00E1va,\ kterou\ lze\ n\u00E1sledn\u011B\ z\u00EDskat\ zavol\u00E1n\u00EDm\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ metody\ {@link\ \#getMessage()}.\r\n\ @param\ cause\ \ \ \ V\u00FDjimka,\ kter\u00E1\ typicky\ zp\u016Fsobila\ vyozen\u00ED\ dan\u00E9\ v\u00FDjimky\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ kterou\ lze\ pozd\u011Bji\ z\u00EDskat\ vol\u00E1n\u00EDm\ {@link\ \#getCause()}.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Hodnota\ {@code\ null}\ je\ povolena\ a\ indikuje,\ \u017Ee\ p\u0159\u00ED\u010Dinu\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ vyhozen\u00ED\ dan\u00E9\ v\u00FDjimky\ nezn\u00E1me\ a\ nebo\ dokonce\ nen\u00ED.\r\n
+numComments=5

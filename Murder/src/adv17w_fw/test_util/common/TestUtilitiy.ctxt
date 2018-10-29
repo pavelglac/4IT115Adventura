@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TestUtilitiy
+comment0.text=\r\n\ Knihovn\u00ED\ t\u0159\u00EDda\ \ {@code\ TestUtilitiy}\ poskytuje\ u\u017Eite\u010Dn\u00E9\ metody\r\n\ pro\ operace\ p\u0159edpokl\u00E1daj\u00EDc\u00ED\ vyu\u017Eit\u00ED\ reflexe.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=cls
+comment1.target=java.lang.Object\ getInstanceOf(java.lang.Class)
+comment1.text=\r\n\ Zjist\u00ED,\ jestli\ t\u0159\u00EDda\ zadan\u00E1\ sv\u00FDm\ class-objektem\ implementuje\r\n\ n\u00E1vrhov\u00FD\ vzor\ <i>Jedin\u00E1\u010Dek</i>\ (<i>Singleton</i>)\ a\ pokud\ ano,\r\n\ z\u00EDsk\u00E1\ jej\u00ED\ instanci.\r\n\ P\u0159i\ kontrole\ "jedin\u00E1\u010Dkovstv\u00ED"\ se\ kontroluje,\r\n\ zda\ t\u0159\u00EDda\ m\u00E1\ jedin\u00FD\ konstruktor,\ kter\u00FD\ je\ nav\u00EDc\ soukrom\u00FD,\r\n\ a\ jestli\ definuje\ bezparametrickou\ statickou\ metodu\ {@code\ getInstance},\r\n\ kter\u00E1.vr\u00E1t\u00ED\ instanci\ dan\u00E9\ t\u0159\u00EDdy.\ O\ tu\ pak\ po\u0159\u00E1d\u00E1.\r\n\r\n\ @param\ <T>\ Typ\ po\u017Eadovan\u00E9ho\ objektu\ nebo\ jeho\ rodi\u010De\r\n\ @param\ cls\ Class-objekt\ t\u0159\u00EDdy,\ jej\u00ED\u017E\ instanci\ chceme\ z\u00EDskat\r\n\ @return\ Instance\ zadan\u00E9\ t\u0159\u00EDdy\r\n\ @throws\ TestException\r\n\ \ \ \ \ \ \ \ \ T\u0159\u00EDda\ reprezentuje\ neinstanciovateln\u00FD\ typ\ (abstraktn\u00ED\ t\u0159\u00EDdu,\r\n\ \ \ \ \ \ \ \ \ interfejs,\ pole,\ primitivn\u00ED\ typ,\ pseudotyp\ {@code\ void}),\r\n\ \ \ \ \ \ \ \ \ anebo\ t\u0159\u00EDda\ nem\u00E1\ dostupn\u00FD\ bezparametrick\u00FD\ (nul\u00E1rn\u00ED)\ konstruktor,\r\n\ \ \ \ \ \ \ \ \ anebo\ byla\ p\u0159i\ konstrukci\ instance\ vyhozena\ n\u011Bjak\u00E1\ v\u00FDjimka.\r\n
+comment2.params=cls
+comment2.target=java.lang.Object\ getSingletonOf(java.lang.Class)
+comment2.text=\r\n\ Zjist\u00ED,\ jestli\ t\u0159\u00EDda\ zadan\u00E1\ sv\u00FDm\ class-objektem\ implementuje\r\n\ n\u00E1vrhov\u00FD\ vzor\ <i>Jedin\u00E1\u010Dek</i>\ (<i>Singleton</i>)\ a\ pokud\ ano,\r\n\ z\u00EDsk\u00E1\ jej\u00ED\ instanci.\r\n\ P\u0159i\ kontrole\ "jedin\u00E1\u010Dkovstv\u00ED"\ se\ kontroluje,\r\n\ zda\ t\u0159\u00EDda\ m\u00E1\ jedin\u00FD\ konstruktor,\ kter\u00FD\ je\ nav\u00EDc\ soukrom\u00FD,\r\n\ a\ jestli\ definuje\ bezparametrickou\ statickou\ metodu\ {@code\ getInstance},\r\n\ kter\u00E1.vr\u00E1t\u00ED\ instanci\ dan\u00E9\ t\u0159\u00EDdy.\ O\ tu\ pak\ po\u0159\u00E1d\u00E1.\r\n\r\n\ @param\ <T>\ Typ\ po\u017Eadovan\u00E9ho\ objektu\ nebo\ jeho\ rodi\u010De\r\n\ @param\ cls\ Class-objekt\ t\u0159\u00EDdy,\ jej\u00ED\u017E\ jedinou\ instanci\ chceme\ z\u00EDskat\r\n\ @return\ Instance\ zadan\u00E9\ t\u0159\u00EDdy\r\n\ @throws\ TestException\ Objeven\ n\u011Bjak\u00FD\ probl\u00E9m\r\n
+comment3.params=game
+comment3.target=java.lang.String\ gameStateDescription(eu.pedu.adv17w_fw.game_txt.IGame)
+comment3.text=\r\n\ Vr\u00E1t\u00ED\ textov\u00FD\ \u0159et\u011Bzec\ s\ popisem\ aktu\u00E1ln\u00EDho\ stavu\ hry\r\n\r\n\ @param\ game\ Hra,\ jej\u00ED\u017E\ popis\ vytv\u00E1\u0159\u00EDme\r\n\ @return\ Po\u017Eadovan\u00FD\ \u0159et\u011Bzec\r\n
+comment4.params=cls
+comment4.target=java.lang.Object\ verifyGetInstanceMethod(java.lang.Class)
+comment4.text=\r\n\ Zjist\u00ED,\ jestli\ t\u0159\u00EDda\ zadan\u00E1\ sv\u00FDm\ class-objektem\ definuje\ statickou\r\n\ tov\u00E1rn\u00ED\ metodu\ {@code\ getInstance}\r\n\ a\ po\u017E\u00E1d\u00E1\ nalezenou\ metodu\ o\ instanci\ dan\u00E9\ t\u0159\u00EDdy.\r\n\r\n\ @param\ <T>\ Typ,\ jeho\u017E\ instanci\ m\u00E1\ tov\u00E1rn\u00ED\ metoda\ vracet\r\n\ @param\ cls\ Class-objekt\ t\u0159\u00EDdy,\ jej\u00ED\u017E\ instanci\ chceme\ z\u00EDskat\r\n\ @return\ \ \ \ Jedin\u00E1\ instance\ zadan\u00E9\ t\u0159\u00EDdy\r\n\ @throws\ TestException\ Objeven\ n\u011Bjak\u00FD\ probl\u00E9m\r\n
+comment5.params=cls
+comment5.target=void\ verifySingleAndPrivateConstructor(java.lang.Class)
+comment5.text=\r\n\ Otestuje,\ \u017Ee\ zadan\u00E1\ t\u0159\u00EDda\ m\u00E1\ jedin\u00FD\ konstruktor,\ a\ ten\ je\ soukrom\u00FD.\r\n\r\n\ @param\ cls\ Class-objekt\ testovan\u00E9\ t\u0159\u00EDdy\r\n\ @throws\ TestException\ Objeven\ n\u011Bjak\u00FD\ probl\u00E9m\r\n
+comment6.params=
+comment6.target=TestUtilitiy()
+comment6.text=Soukrom\u00FD\ konstruktor\ zabra\u0148uj\u00EDc\u00ED\ vytvo\u0159en\u00ED\ instance.
+numComments=7

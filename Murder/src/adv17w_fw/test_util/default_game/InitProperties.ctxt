@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=InitProperties
+comment1.params=
+comment1.target=InitProperties\ getInstance()
+comment1.text=\r\n//%L+\ CZ\r\n\ Vr\u00E1t\u00ED\ odkaz\ na\ jedinou\ instanci\ dan\u00E9\ t\u0159\u00EDdy.\r\n\r\n\ @return\ Odkaz\ na\ jedinou\ instanci\ dan\u00E9\ t\u0159\u00EDdy\r\n//%Lx\ EN\r\n\ Returns\ the\ reference\ to\ the\ only\ instance\ of\ this\ class.\r\n\r\n\ @return\ Reference\ to\ the\ only\ instance\ of\ this\ class\r\n//%L-\r\n
+comment2.params=gameName\ factoryClass
+comment2.target=InitProperties(java.lang.String,\ java.lang.Class)
+comment2.text=\r\n\r\n\ @param\ gameName\ \ \ \ \ \ The\ name\ of\ the\ created\ game\r\n\ @param\ factoryClass\ \ The\ class-object\ of\ the\ corresponding\ factory\ class\r\n
+numComments=3

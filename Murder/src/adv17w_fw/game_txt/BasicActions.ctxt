@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BasicActions
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ BasicActions}\ class\ represents\ crates\r\n\ containing\ the\ names\ of\ mandatory\ actions.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=move\ take\ putDown\ help\ end
+comment1.target=BasicActions(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Returns\ the\ crate\ with\ names\ of\ mandatory\ actions,\r\n\ i.e.\ actions\ which\ have\ to\ be\ implemented\ in\ all\ games.\r\n\ The\ names\ must\ not\ contain\ whiteplaces\ (they\ should\ be\ one-word).\r\n\r\n\ @param\ move\ \ \ \ \ Name\ of\ the\ action\ for\ moving\ into\ neighboring\ place\r\n\ @param\ take\ \ \ \ \ Name\ of\ the\ action\ for\ taking\ item\ from\ the\ bag\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ putting\ it\ down\ into\ the\ current\ place\r\n\ @param\ putDown\ \ Name\ of\ the\ action\ for\ taking\ item\ from\ the\ current\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ place\ and\ putting\ it\ into\ bag\r\n\ @param\ help\ \ \ \ \ Name\ of\ the\ action\ for\ asking\ for\ help\r\n\ @param\ end\ \ \ \ \ \ Name\ of\ the\ action\ for\ immediate\ game\ termination\r\n
+comment2.params=typeOfStep
+comment2.target=java.lang.String\ get(eu.pedu.adv17w_fw.scenario.TypeOfStep)
+comment2.text=\r\n\ Vr\u00E1t\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ zadan\u00E9ho\ typu.\r\n\r\n\ @param\ typeOfStep\ Typ\ p\u0159\u00EDkazu,\ na\ jeho\u017E\ n\u00E1zev\ se\ pt\u00E1me\r\n\ @return\ N\u00E1zev\ p\u0159\u00EDkazu\ zadan\u00E9ho\ typu\r\n
+comment3.params=obj
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\r\n\ Indicates\ whether\ the\ given\ object\ is\ "equal\ to"\ this\ one.\r\n\ The\ instances\ of\ the\ {@code\ BasicActions}\ class\ are\ equals\r\n\ when\ the\ particular\ names\ are\ equals\ ignoring\ case.\r\n\r\n\ @param\ obj\ The\ object\ with\ which\ to\ compare\r\n\ @return\ {@code\ true}\ if\ this\ objects\ is\ equal\ to\ the\ {@code\ obj}\r\n\ \ \ \ \ \ \ \ \ argument,\ {@code\ false}\ otherwise\r\n
+comment4.params=
+comment4.target=int\ hashCode()
+comment4.text=\r\n\ Returns\ a\ hash\ code\ value\ for\ the\ crate.\r\n\r\n\ @return\ A\ hash\ code\ value\ for\ this\ object\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Return\ the\ text\ signature\ of\ the\ crate\ composed\ from\ the\ class\ name\r\n\ followed\ by\ enumeration\ of\ the\ attribute\ values\r\n\ closed\ in\ the\ brackets.\r\n\r\n\ @return\ Instance\ text\ signature\r\n
+comment6.params=names
+comment6.target=void\ verifyArguments(java.lang.String[])
+comment6.text=\r\n\ Verify\ the\ correctness\ of\ the\ argument\ values,\ which\ must\ be\ neither\r\n\ {@code\ null}\ nor\ the\ empty\ strings.\r\n\r\n\ @param\ names\ The\ verified\ values\r\n
+numComments=7

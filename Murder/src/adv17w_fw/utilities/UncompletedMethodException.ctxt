@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=UncompletedMethodException
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ UncompletedMethodException}\ class\ are\ thrown\r\n\ to\ indicate\ that\ the\ requested\ method\ is\ not\ yet\ completed.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=UncompletedMethodException()
+comment1.text=\r\n\ Constructs\ an\ {@code\ UncompletedException}\ with\ no\ detail\ message.\r\n
+comment2.params=message
+comment2.target=UncompletedMethodException(java.lang.String)
+comment2.text=\r\n\ Constructs\ an\ {@code\ UncompletedException}\r\n\ with\ the\ specified\ detail\ trailing\ message.\r\n\r\n\ @param\ message\ The\ detail\ message\ put\ at\ the\ end\ of\ the\ announcement\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ of\ the\ method\ creating\ this\ exception\r\n
+comment3.params=message\ withoutMessage
+comment3.target=UncompletedMethodException(java.lang.String,\ boolean)
+comment3.text=\r\n\ Constructs\ an\ {@code\ UncompletedException}\r\n\ with\ the\ specified\ detail\ trailing\ message.\r\n\r\n\ @param\ message\ The\ detail\ message\ put\ at\ the\ end\ of\ the\ announcement\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ of\ the\ method\ creating\ this\ exception\r\n\ @param\ withoutMessage\ If\ the\ empty\ message\ is\ set\r\n
+numComments=4

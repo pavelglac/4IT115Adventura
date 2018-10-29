@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IUI
+comment0.text=\r\n\ Interface\ {@code\ IUI}\ declares\ the\ requirements\ to\ the\ class\r\n\ defining\ the\ game\ user\ interface.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=IGame\ getGame()
+comment1.text=\r\n\ Returns\ the\ currently\ played\ game.\r\n\r\n\ @return\ The\ currently\ played\ game\r\n
+comment2.params=game
+comment2.target=void\ startGame(IGame)
+comment2.text=\r\n\ Starts\ the\ the\ given\ game\r\n\ and\ runs\ the\ communication\ between\ this\ game\ and\ the\ user.\r\n\r\n\ @param\ game\ The\ game,\ which\ should\ be\ run\r\n
+comment3.params=
+comment3.target=void\ startGame()
+comment3.text=\r\n\ Starts\ the\ default\ game,\ which\ means\ the\ game\ returned\ by\ the\ instance\r\n\ of\ this\ GUI's\ factory\ class,\r\n\ and\ runs\ the\ communication\ between\ this\ game\ and\ the\ user.\r\n
+numComments=4

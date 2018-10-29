@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Util
+comment0.text=\r\n\ T\u0159\u00EDda\ {@code\ Util}\ je\ knihovn\u00ED\ t\u0159\u00EDdou\ s\ u\u017Eite\u010Dn\u00FDmi\ metodami.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=arr
+comment1.target=java.lang.String\ objArr2String(java.lang.Object[])
+comment1.text=\r\n\ P\u0159evede\ zadan\u00FD\ vektor\ na\ \u0159et\u011Bzec\ znak\u016F\ p\u0159i\u010Dem\u017E\r\n\ ka\u017Edou\ z\ hodnot\ uzav\u0159e\ do\ francouzsk\u00FDch\ uvozovek\r\n\ jednotliv\u00E9\ takto\ p\u0159eveden\u00E9\ hodnoty\ odd\u011Bl\u00ED\ \u010D\u00E1rkami\r\n\ a\ cel\u00FD\ vektor\ uzav\u0159e\ do\ kulat\u00FDch\ z\u00E1vorek\r\n\r\n\ @param\ arr\ \ \ Pole,\ jeho\u017E\ hodnoty\ chceme\ vypsat\r\n\ @return\ \ \ \ \ \ Po\u017Eadovan\u00FD\ \u0159et\u011Bzec\r\n
+comment2.params=collection
+comment2.target=java.lang.String[]\ colINamed2StringArr(java.util.Collection)
+comment2.text=\r\n\ Zadanou\ kolekci\ objekt\u016F\ typu\ {@link\ INamed}\r\n\ p\u0159evede\ na\ jednorozm\u011Brn\u00E9\ pole\ \u0159et\u011Bzc\u016F.\r\n\r\n\ @param\ collection\ \ P\u0159ev\u00E1d\u011Bn\u00E1\ kolekce\ pojmenovan\u00FDch\r\n\ @return\ Po\u017Eadovan\u00E9\ pole\ string\u016F\r\n
+comment3.params=collection
+comment3.target=java.lang.String\ colINamedToString(java.util.Collection)
+comment3.text=\r\n\ Vr\u00E1t\u00ED\ \u0159et\u011Bzec\ s\ textov\u00FDm\ podpisem\ zadan\u00E9\ kolekce.\r\n\r\n\ @param\ collection\ Podepisuj\u00EDc\u00ED\ se\ kolekce\r\n\ @return\ Po\u017Eadovan\u00FD\ podpis\r\n
+comment4.params=
+comment4.target=Util()
+comment4.text=
+numComments=5

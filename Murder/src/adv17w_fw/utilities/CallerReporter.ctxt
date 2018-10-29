@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CallerReporter
+comment0.text=\r\n\ Tov\u00E1rn\u00ED\ t\u0159\u00EDda\ {@code\ CallerReporter}\ poskytuje\ sadu\ metod\ umo\u017E\u0148uj\u00EDc\u00EDch\r\n\ zjistit\ n\u00E1zev\ a\ majitele\ (t\u0159\u00EDdu,\ bal\u00ED\u010Dek)\ metody,\r\n\ kter\u00E1\ p\u0159\u00EDmo\ \u010Di\ zprost\u0159edkovan\u011B\ volala\ aktu\u00E1ln\u00ED\ metodu,\r\n\ p\u0159esn\u011Bji\ metodu\ volaj\u00EDc\u00ED\ n\u011Bkterou\ z\ poskytovan\u00FDch\ metod.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=level\ depth
+comment1.target=java.lang.String\ getCallerName(CallerReporter.Level,\ int)
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ \u0159et\u011Bzec\ s\ n\u00E1zvem\ metody,\ kter\u00E1\ tuto\ metodu\ zavolala.\r\n\r\n\ @param\ level\ {@code\ Level.METHOD}\ \ -\ vr\u00E1t\u00ED\ pouze\ n\u00E1zev\ metody\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ {@code\ Level.CLASS}\ \ \ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody\ s\ n\u00E1zvem\ t\u0159\u00EDdy\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ {@code\ Level.PACKAGE}\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody\ s\ n\u00E1zvem\ t\u0159\u00EDdy\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ bal\u00ED\u010Dku\r\n\ @param\ depth\ Pt\u00E1-li\ se\ metoda\ na\ sv\u016Fj\ n\u00E1zev\ nebo\ na\ n\u00E1zev\ n\u011Bkter\u00E9\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ j\u00ED\ volaj\u00EDc\u00EDch\ metod.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 0\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody,\ kter\u00E1\ zavolala\ tuto\ metodu\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 1\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody,\ je\u017E\ zavolala\ metodu,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ kter\u00E1\ zavolala\ tuto\ metodu\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ atd.\r\n\ @return\ N\u00E1zev\ metody,\ kter\u00E1\ tuto\ metodu\ zavolala\r\n
+comment2.params=level\ depth
+comment2.target=java.lang.String\ getCallerName(int,\ int)
+comment2.text=\r\n\ Vr\u00E1t\u00ED\ \u0159et\u011Bzec\ s\ n\u00E1zvem\ metody,\ kter\u00E1\ tuto\ metodu\ zavolala.\r\n\r\n\ @param\ level\ 0\ -\ vr\u00E1t\u00ED\ pouze\ n\u00E1zev\ metody\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ 1\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody\ s\ n\u00E1zvem\ t\u0159\u00EDdy\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ 2\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody\ s\ n\u00E1zvem\ t\u0159\u00EDdy\ a\ bal\u00ED\u010Dku\r\n\ @param\ depth\ Pt\u00E1-li\ se\ metoda\ na\ sv\u016Fj\ n\u00E1zev\ nebo\ na\ n\u00E1zev\ n\u011Bkter\u00E9\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ z\ j\u00ED\ volaj\u00EDc\u00EDch\ metod.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ 0\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody,\ kter\u00E1\ zavolala\ tuto\ metodu\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ 1\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody,\ je\u017E\ zavolala\ metodu,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ kter\u00E1\ zavolala\ tuto\ metodu\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ atd.\r\n\ @return\ N\u00E1zev\ metody,\ kter\u00E1\ tuto\ metodu\ zavolala\r\n
+comment3.params=level
+comment3.target=java.lang.String\ getCallerName(int)
+comment3.text=\r\n\ Vr\u00E1t\u00ED\ \u0159et\u011Bzec\ s\ n\u00E1zvem\ metody,\ kter\u00E1\ tuto\ metodu\ zavolala.\r\n\r\n\ @param\ level\ \ 0\ -\ vr\u00E1t\u00ED\ pouze\ n\u00E1zev\ metody<br>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 1\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody\ s\ n\u00E1zvem\ t\u0159\u00EDdy<br>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 2\ -\ vr\u00E1t\u00ED\ n\u00E1zev\ metody\ s\ n\u00E1zvem\ t\u0159\u00EDdy\ a\ bal\u00ED\u010Dku.\r\n\ @return\ N\u00E1zev\ metody,\ kter\u00E1\ tuto\ metodu\ zavolala\r\n
+comment4.params=
+comment4.target=java.lang.String\ getCallerName()
+comment4.text=\r\n\ Vr\u00E1t\u00ED\ \u0159et\u011Bzec\ s\ pouh\u00FDm\ n\u00E1zvem\ metody,\ kter\u00E1\ tuto\ metodu\ zavolala.\r\n\r\n\ @return\ N\u00E1zev\ metody,\ kter\u00E1\ tuto\ metodu\ zavolala\r\n
+comment5.params=fullName
+comment5.target=java.lang.String\ getSimpleClassName(java.lang.String)
+comment5.text=\r\n\ \ P\u0159evede\ \u00FApln\u00FD\ n\u00E1zev\ t\u0159\u00EDdy\ na\ jej\u00ED\ jednoduch\u00FD\ n\u00E1zev\ bez\ bal\u00ED\u010Dk\u016F.\r\n\r\n\ @param\ \ fullName\ \u00DApln\u00FD\ n\u00E1zev\ t\u0159\u00EDdy\ v\u010Detn\u011B\ n\u00E1zv\u016F\ bal\u00ED\u010Dk\u016F\r\n\ @return\ \ \ \ \ \ \ \ \ \ Jednoduch\u00FD\ n\u00E1zev\ t\u0159\u00EDdy\r\n
+comment6.params=
+comment6.target=CallerReporter()
+comment6.text=\r\n\r\n
+numComments=7

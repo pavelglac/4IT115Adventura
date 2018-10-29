@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FactoryTester
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ FactoryTester}\ p\u0159edstavuj\u00ED\ ...\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=factory
+comment1.target=FactoryTester(eu.pedu.adv17w_fw.game_txt.IGSMFactory)
+comment1.text=\r\n\ Vytvo\u0159\u00ED\ objekt\ schopn\u00FD\ otestovat\ zadan\u00FD\ tov\u00E1rn\u00ED\ objekt.\r\n\r\n\ @param\ factory\ Tov\u00E1rn\u00ED\ objekt\ ur\u010Den\u00FD\ k\ otestov\u00E1n\u00ED\r\n
+comment2.params=level
+comment2.target=void\ testForLevel(int)
+comment2.text=\r\n\ Prov\u011B\u0159\u00ED\ form\u00E1ln\u00ED\ korektnost\ metod\ zadan\u00E9ho\ tov\u00E1rn\u00EDho\ objektu,\r\n\ p\u0159i\u010Dem\u017E\ sada\ prov\u011B\u0159ovan\u00FDch\ metod\ je\ d\u00E1na\ zadanou\ hladinou.\r\n\r\n\ @param\ level\ Hloubka\ testov\u00E1n\u00ED\ ur\u010Duj\u00EDc\u00ED\ sadu\ testovan\u00FDch\ metod\r\n
+comment3.params=product\ productName
+comment3.target=void\ checkCommonAuthor(eu.pedu.adv17w_fw.game_txt.IAuthor,\ java.lang.String)
+comment3.text=\r\n\ Prov\u011B\u0159\u00ED,\ jestli\ se\ autor\ dan\u00E9ho\ tov\u00E1rn\u00EDho\ objektu\ shoduje\ s\ autorem\r\n\ j\u00EDm\ vytvo\u0159en\u00E9ho\ objektu.\r\n\r\n\ @param\ product\ \ \ \ \ Testovan\u00FD\ "v\u00FDrobek"\r\n\ @param\ productName\ N\u00E1zev\ typu\ v\u00FDrobku\r\n
+comment4.params=generator\ productNameIndex
+comment4.target=void\ checkProduct(java.util.function.Supplier,\ int)
+comment4.text=\r\n\ Prov\u011B\u0159\u00ED\ form\u00E1ln\u00ED\ korektnost\ instance\ produktu\ dodan\u00E9ho\ tov\u00E1rn\u00EDm\ objektem.\r\n\ Prov\u011B\u0159uje\ se,\ zde\ n\u00E1sledn\u00E1\ vol\u00E1n\u00ED\ gener\u00E1toru\ vracej\u00ED\ toto\u017En\u00FD\ produkt,\r\n\ zda\ produkt\ vrac\u00ED\ t\u0159\u00EDdu\ sv\u00E9ho\ gener\u00E1toru\ a\r\n\ zda\ se\ autor\ produktu\ shoduje\ s\ autorem\ gener\u00E1toru.\r\n\r\n\ @param\ generator\ \ \ Gener\u00E1tor\ produktu\r\n\ @param\ productName\ N\u00E1zev\ typu\ produktu\ ve\ 2.\ p\u00E1d\u011B\r\n\ @throws\ TestException\ Chyba\ v\ testovan\u00E9\ aplikaci\r\n\ @throws\ FrameworkException\ Objevena\ chyba\ frameworku\r\n
+comment5.params=authored
+comment5.target=void\ verifyPackage(eu.pedu.adv17w_fw.game_txt.IAuthor)
+comment5.text=\r\n\ Prov\u011B\u0159\u00ED,\ \u017Ee\ se\ zadan\u00E1\ t\u0159\u00EDda\ se\ nach\u00E1z\u00ED\ ve\ spr\u00E1vn\u00E9m\ bal\u00ED\u010Dku,\r\n\ jeho\u017E\ n\u00E1zev\ je\ odvozen\ z\ ID\ a\ jm\u00E9na\ jej\u00EDho\ autora.\r\n\r\n\ @param\ authored\ Prov\u011B\u0159ovan\u00E1\ \ t\u0159\u00EDda\r\n
+numComments=6

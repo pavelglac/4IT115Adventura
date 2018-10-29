@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TGameTester
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ TGameTester}\ testuj\u00ED\ aplikaci\r\n\ zadanou\ tov\u00E1rn\u00EDm\ objektem\ podle\ po\u017Eadavk\u016F\ zadan\u00E9ho\r\n\ zadavatele\ \u2013\ instance\ t\u0159\u00EDdy\ {@link\ ASolutionTester}.\r\n\ Tento\ zadavatel\ je\ poskytuje\ sadu\ sc\u00E9n\u00E1\u0159\u016F,\ podle\ nich\u017E\ se\ testuje,\ spolu\r\n\ s\ n\u00E1v\u0161t\u011Bvn\u00EDkem,\ kter\u00FD\ ve\ vhodnou\ chv\u00EDli\ ov\u011B\u0159uje\ po\u017Eadovan\u00E9\ skute\u010Dnosti.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=solutionTester\ gsmFactory
+comment1.target=TGameTester(ASolutionTester,\ eu.pedu.adv17w_fw.game_txt.IGSMFactory)
+comment1.text=\r\n\ Vytvo\u0159\u00ED\ novou\ instanci\ testovac\u00ED\ t\u0159\u00EDdy\ testuj\u00EDc\u00ED\ objekty\ poskytnut\u00E9\r\n\ instanc\u00ED\ zadan\u00E9\ tov\u00E1rn\u00ED\ t\u0159\u00EDdy\ a\ modifikovan\u00E9\ n\u00E1v\u0161t\u011Bvn\u00EDky\r\n\ vytv\u00E1\u0159en\u00FDmi\ zadan\u00FDm\ tov\u00E1rn\u00EDm\ objektem.\r\n\r\n\ @param\ solutionTester\ \ Tester\ zad\u00E1n\u00ED,\ jeho\u017E\ realizace\ se\ prov\u011B\u0159uje\r\n\ @param\ gsmFactory\ \ \ \ \ \ Tov\u00E1rn\u00ED\ objekt\ zprost\u0159edkov\u00E1vaj\u00EDc\u00ED\ p\u0159\u00EDstup\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ke\ kl\u00ED\u010Dov\u00FDm\ objekt\u016Fm\ aplikace.\r\n
+comment2.params=
+comment2.target=void\ testGame()
+comment2.text=\r\n\ Prov\u011B\u0159\u00ED\ hru\ tak,\ \u017Ee\ ji\ postupn\u011B\ "zahraje"\ podle\ sc\u00E9n\u00E1\u0159\u016F\r\n\ se\ zadan\u00FDmi\ n\u00E1zvy.\ Zadan\u00E9\ sc\u00E9n\u00E1\u0159e\ mus\u00ED\ b\u00FDt\ testovac\u00ED.\r\n\r\n
+numComments=3

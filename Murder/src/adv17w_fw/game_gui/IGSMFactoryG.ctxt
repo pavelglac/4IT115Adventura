@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IGSMFactoryG
+comment0.text=\r\n\ \ Instance\ interfejsu\ {@code\ IGSMFactory}\ p\u0159edstavuj\u00ED\ tov\u00E1rn\u00ED\ objekty,\r\n\ kter\u00E9\ jsou\ schopny\ na\ po\u017E\u00E1d\u00E1n\u00ED\ dodat\ instance\ kl\u00ED\u010Dov\u00FDch\ objekt\u016F\ aplikace,\r\n\ konkr\u00E9tn\u011B\ aktu\u00E1ln\u00ED\ hry,\ jej\u00EDho\ spr\u00E1vce\ sc\u00E9n\u00E1\u0159\u016F\ a\ u\u017Eivatelsk\u00E9ho\ rozhran\u00ED.\r\n\ N\u00E1zev\ interfejsu\ je\ odvozen\ z\ (Game\ +\ ScenarioManager\ Factory).\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=factoryClass
+comment1.target=IGSMFactoryG\ getInstanceOfFactory(java.lang.Class)
+comment1.text=\r\n\ Returns\ the\ instance\ of\ the\ given\ factory\ class\ with\ a\ nullary\r\n\ (\=&nbsp;parameterless)\ constructor.\r\n\r\n\ @param\ <T>\ \ \ \ \ \ \ \ \ \ \ Factory\ class\ type\r\n\ @param\ factoryClass\ \ Factory\ class\ class-object\r\n\ @return\ Factory\ object\r\n\ @throws\ IllegalArgumentException\ Creation\ of\ the\ instance\ failed\r\n
+comment2.params=
+comment2.target=eu.pedu.adv17w_fw.scenario.AScenarioManagerG\ getScenarioManager()
+comment2.text=\r\n\ Vr\u00E1t\u00ED\ odkaz\ na\ instance\ spr\u00E1vce\ sc\u00E9n\u00E1\u0159\u016F.\r\n\r\n\ @return\ Po\u017Eadovan\u00FD\ odkaz\r\n\ @throws\ UncompletedMethodException\ Metoda\ je\u0161t\u011B\ nen\u00ED\ plnohodnotn\u00E1\r\n
+comment3.params=
+comment3.target=IGameG\ getGame()
+comment3.text=\r\n\ Vr\u00E1t\u00ED\ odkaz\ na\ (jedinou)\ instanci\ textov\u00E9\ verze\ hry;\r\n\ dokud\ je\u0161t\u011B\ hra\ neexistuje,\ vyhazuje\ po\ zavol\u00E1n\u00ED\ v\u00FDjimku\r\n\ {@link\ UncompletedMethodException}.\r\n\r\n\ @return\ Po\u017Eadovan\u00FD\ odkaz\r\n\ @throws\ UncompletedMethodException\ Metoda\ je\u0161t\u011B\ nen\u00ED\ plnohodnotn\u00E1\r\n
+comment4.params=
+comment4.target=IUIG\ getUI()
+comment4.text=\r\n\ Vr\u00E1t\u00ED\ odkaz\ na\ instanci\ t\u0159\u00EDdy\ realizuj\u00EDc\u00ED\ u\u017Eivatelsk\u00E9\ rozhran\u00ED\r\n\ textov\u00E9\ verze\ hry;\r\n\ dokud\ tato\ t\u0159\u00EDda\ neexistuje,\ vyhazuje\ po\ zavol\u00E1n\u00ED\ v\u00FDjimku\r\n\ {@link\ UncompletedMethodException}.\r\n\r\n\ @return\ Po\u017Eadovan\u00FD\ odkaz\r\n\ @throws\ UncompletedMethodException\ Metoda\ je\u0161t\u011B\ nen\u00ED\ plnohodnotn\u00E1\r\n
+numComments=5

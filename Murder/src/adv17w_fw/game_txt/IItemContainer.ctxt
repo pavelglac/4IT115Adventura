@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IItemContainer
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ IItemContainer}\ interface\ represent\ containers\r\n\ containing\ items\ occuring\ in\ the\ game.\r\n\ The\ special\ cases\ of\ these\ containers\ are\ places\ and\ bag.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.util.Collection\ getItems()
+comment1.text=\r\n\ Returns\ a\ collection\ of\ items\ located\ in\ the\ given\ container.\r\n\r\n\ @return\ Collection\ of\ items\ located\ in\ the\ given\ container\r\n
+numComments=2

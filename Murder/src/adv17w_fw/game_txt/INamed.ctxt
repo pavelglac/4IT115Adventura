@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=INamed
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ ANamed}\ interface\ are\ named\ objects,\r\n\ i.e.\ objects\ having\ their\ name.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=member\ array
+comment1.target=java.util.Optional\ getO(java.lang.String,\ INamed[])
+comment1.text=\r\n\ Seeks\ an\ object\ with\ given\ name\ in\ the\ array\ and\ returns\ it\ wrapped\r\n\ into\ the\ object\ of\ {@link\ Optional}{@code\ <}{@link\ INamed}{@code\ >}\ type.\r\n\ If\ there\ are\ more\ objects\ with\ this\ name,\ it\ returns\ the\ first\ found.\r\n\ If\ it\ does\ not\ find\ any,\ it\ returns\ empty\ object\ (<b>NOT\ empty\ reference</b>\!).\r\n\r\n\ @param\ <E>\ \ \ \ Type\ of\ elements\ of\ searched\ array\r\n\ @param\ member\ Name\ of\ searched\ object\r\n\ @param\ array\ \ Searched\ array\r\n\ @return\ Found\ object\ wrapped\ into\ the\ object\ of\r\n\ \ \ \ \ \ \ \ \ {@link\ Optional}{@code\ <}{@link\ INamed}{@code\ >}\ type\r\n
+comment2.params=member\ collection
+comment2.target=java.util.Optional\ getO(java.lang.String,\ java.util.Collection)
+comment2.text=\r\n\ Seeks\ an\ object\ with\ given\ name\ in\ the\ collection\ and\ returns\ it\ wrapped\r\n\ into\ the\ object\ of\ {@link\ Optional}{@code\ <}{@link\ INamed}{@code\ >}\ type.\r\n\ If\ there\ are\ more\ objects\ with\ this\ name,\ it\ returns\ the\ first\ found.\r\n\ If\ it\ does\ not\ find\ any,\ it\ returns\ empty\ object\r\n\ (<b>NOT\ empty\ reference</b>\!).\r\n\r\n\ @param\ <E>\ \ \ \ \ \ \ \ Type\ of\ elements\ of\ searched\ collection\r\n\ @param\ member\ \ \ \ \ Name\ of\ searched\ object\r\n\ @param\ collection\ Searched\ collection\r\n\ @return\ Found\ object\ wrapped\ into\ the\ object\ of\r\n\ \ \ \ \ \ \ \ \ {@link\ Optional}{@code\ <}{@link\ INamed}{@code\ >}\ type\r\n
+comment3.params=member\ stream
+comment3.target=java.util.Optional\ getO(java.lang.String,\ java.util.stream.Stream)
+comment3.text=\r\n\ Seeks\ an\ object\ with\ given\ name\ in\ the\ stream\ and\ returns\ it\ wrapped\r\n\ into\ the\ object\ of\ {@link\ Optional}{@code\ <}{@link\ INamed}{@code\ >}\ type.\r\n\ If\ there\ are\ more\ objects\ with\ this\ name,\ it\ returns\ the\ first\ found.\r\n\ If\ it\ does\ not\ find\ any,\ it\ returns\ empty\ object\r\n\ (<b>NOT\ empty\ reference</b>\!).\r\n\r\n\ @param\ <E>\ \ \ \ Type\ of\ elements\ of\ searched\ collection\r\n\ @param\ member\ Name\ of\ searched\ object\r\n\ @param\ stream\ Searched\ stream\r\n\ @return\ Found\ object\ wrapped\ into\ the\ object\ of\r\n\ \ \ \ \ \ \ \ \ {@link\ Optional}{@code\ <}{@link\ INamed}{@code\ >}type\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ Returns\ the\ name\ of\ the\ instance.\r\n\r\n\ @return\ Name\ of\ the\ instance\r\n
+comment5.params=
+comment5.target=java.lang.String\ toStringWithClass()
+comment5.text=\r\n\ Returns\ the\ textual\ signature\ of\ this\ instance\r\n\ composed\ from\ its\ mother\ class\ name\ followed\ by\r\n\ an\ underline\ sign\ and\ the\ name\ of\ the\ instance.\r\n\r\n\ @return\ Textual\ signature\r\n
+numComments=6

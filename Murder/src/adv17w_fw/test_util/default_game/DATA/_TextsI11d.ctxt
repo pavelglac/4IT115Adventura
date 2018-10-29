@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=_TextsI11d
+comment0.text=\r\n\ The\ {@code\ _TextsI11d}\ library\ class\ serves\ as\ a\ box\ for\ text\ constants,\r\n\ that\ are\ used\ at\ various\ places\ of\ the\ program.\r\n\ By\ centralizing\ the\ definitions\ of\ these\ text\ strings\ we\ can\ easily\ reach,\r\n\ that\ texts,\ that\ should\ be\ identical\ at\ various\ program\ places,\r\n\ really\ will\ be\ identical.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=n\u00E1zvy
+comment1.target=java.lang.String\ cm(java.lang.String[])
+comment1.text=\r\n\ Returns\ a\ string\ containing\ the\ entered\ names\ separated\ with\ commas.\r\n\r\n\ @param\ n\u00E1zvy\ Names\ that\ are\ necessary\ to\ be\ unified\r\n\ @return\ The\ resulting\ string\ from\ unified\ entered\ names\r\n
+comment2.params=
+comment2.target=_TextsI11d()
+comment2.text=Private\ constructor\ preventing\ the\ instance\ creating.
+numComments=3

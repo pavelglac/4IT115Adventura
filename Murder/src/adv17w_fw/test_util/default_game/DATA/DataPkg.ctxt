@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DataPkg
+comment0.text=\r\n\ T\u0159\u00EDda\ {@code\ DataPkg}\ slou\u017E\u00ED\ pouze\ k\ lokalizaci\ slo\u017Eky/bal\u00ED\u010Dku,\r\n\ kde\ jsou\ um\u00EDst\u011Bna\ v\u0161echna\ data\ aplikace.\r\n\ <p>\r\n\ T\u0159\u00EDda\ neobsahuje\ \u017E\u00E1dn\u00E9\ atributy\ ani\ metody,\ je\ to\ opravdu\ jen\ lok\u00E1tor\ dat.\r\n\ Je\ definov\u00E1na\ jako\ samostatn\u00E1\ t\u0159\u00EDda\ proto,\ aby\ mohla\ slou\u017Eit\ jako\ kotva,\r\n\ se\ kterou\ se\ p\u0159i\ jak\u00FDchkoliv\ n\u00E1sledn\u00FDch\ zm\u011Bn\u00E1ch\ ve\ struktu\u0159e\ aplikace\ neh\u00FDb\u00E1.\r\n\ Kdybychom\ k\ tomuto\ \u00FA\u010Delu\ pou\u017Eili\ jinou\ t\u0159\u00EDdu,\ mohli\ bychom\ se\ ji\ pozd\u011Bji\r\n\ rozhodnout\ p\u0159esunout\ a\ p\u0159itom\ zapomenout,\ \u017Ee\ m\u00E1\ vedlej\u0161\u00ED\ v\u00FDznam\ kotvy.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 14.00.4526\r\n
+comment1.params=
+comment1.target=DataPkg()
+comment1.text=Soukrom\u00FD\ konstruktor\ zabra\u0148uj\u00EDc\u00ED\ vytvo\u0159en\u00ED\ instance.
+numComments=2

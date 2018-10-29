@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IPlace
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ IPlace}\ interface\ represent\ the\ places\ in\ the\ game.\r\n\r\n\ We\ can\ take\ the\ place\ visiting\ as\ a\ partial\ goal,\r\n\ which\ the\ player\ tries\ to\ reach.\r\n\ The\ places\ can\ be\ rooms,\ planets,\ live\ stages\ etc.\r\n\ The\ places\ can\ contain\ various\ items.that\ may\ help\ user\ to\ reach\ the\ goal.\r\n\ Each\ place\ knows\ its\ current\ neighboring\ places\ and\ it\ knows\r\n\ which\ items\ it\ currently\ contains.\r\n\ The\ neighbors\ as\ well\ as\ the\ contained\ items\ can\ change\ during\ the\ game.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.util.Collection\ getNeighbors()
+comment1.text=\r\n\ Returns\ the\ collection\ of\ current\ neighbors\ of\ this\ place,\ i.e.\ the\r\n\ collection\ of\ places,\ to\ which\ we\ can\ move\ from\ this\ place\ with\ the\r\n\ command\ of\ the\ {@link\ eu.pedu.adv17s_fw.scenario.TypeOfStep\#tsMOVE\r\n\ TypeOfStep.tsMOVE}\ type.\r\n\r\n\ @return\ Collection\ of\ neighbors\r\n
+comment2.params=
+comment2.target=java.util.Collection\ getItems()
+comment2.text=\r\n\ Returns\ a\ collection\ of\ items\ located\ in\ the\ given\ place.\r\n\r\n\ @return\ Collection\ of\ items\ located\ in\ the\ given\ place\r\n
+numComments=3

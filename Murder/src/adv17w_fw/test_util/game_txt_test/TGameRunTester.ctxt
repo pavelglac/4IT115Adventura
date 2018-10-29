@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TGameRunTester
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ TGameRunTester}\ slou\u017E\u00ED\ k\ otestov\u00E1n\u00ED\ b\u011Bhu\ hry\r\n\ her\ implementuj\u00EDc\u00EDch\ interfejs\ {@code\ IGame}\r\n\ a\ ovladateln\u00FDch\ podle\ sc\u00E9n\u00E1\u0159\u016F\ spravovan\u00FDch\r\n\ instanc\u00ED\ potomka\ t\u0159\u00EDdy\ {@link\ AScenarioManager}.\r\n\ <p>\r\n\ Instance\ jsou\ schopny\ prov\u011B\u0159it,\r\n\ zda\ p\u0159i\ spu\u0161t\u011Bn\u00ED\ libovoln\u00E9ho\ testovac\u00EDho\ sc\u00E9n\u00E1\u0159e\ hra\ reaguje\ tak,\r\n\ jak\ je\ ve\ sc\u00E9n\u00E1\u0159i\ napl\u00E1nov\u00E1no.\r\n\ Za\ testovac\u00ED\ sc\u00E9n\u00E1\u0159\ se\ p\u0159itom\ pova\u017Euje\ libovoln\u00FD\ sc\u00E9n\u00E1\u0159,\r\n\ kter\u00FD\ nen\u00ED\ demonstra\u010Dn\u00ED.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=gameSummary
+comment1.target=TGameRunTester(GameSummary)
+comment1.text=\r\n\ Vytvo\u0159\u00ED\ instanci,\ kter\u00E1\ bude\ testovat\ zadanou\ hru.\r\n\ Konstruktor\ p\u0159edpokl\u00E1d\u00E1,\ \u017Ee\ parametry\ ji\u017E\ pro\u0161ly\ z\u00E1kladn\u00ED\ prov\u011Brkou.\r\n\r\n\ @param\ gameSummary\ P\u0159epravka\ s\ informacemi\ o\ testu\ a\ jeho\ v\u00FDsledc\u00EDch\r\n
+comment2.params=scenario
+comment2.target=void\ executeScenario(eu.pedu.adv17w_fw.scenario.Scenario)
+comment2.text=\r\n\ Spust\u00ED\ hru\ \u0159\u00EDzenou\ zadan\u00FDm\ sc\u00E9n\u00E1\u0159em;\r\n\ t\u00E9to\ h\u0159e\ bude\ postupn\u011B\ zad\u00E1vat\ p\u0159\u00EDkazy\ sc\u00E9n\u00E1\u0159e\r\n\ a\ porovn\u00E1vat\ jej\u00ED\ odpov\u011Bdi\ s\ po\u017Eadavky\ sc\u00E9n\u00E1\u0159e.\r\n\r\n\ @param\ scenario\ \ \ \ Sc\u00E9n\u00E1\u0159,\ kter\u00FDm\ testujeme\ hru\r\n
+comment3.params=scenario
+comment3.target=java.lang.String\ header(eu.pedu.adv17w_fw.scenario.Scenario)
+comment3.text=\r\n\ Vr\u00E1t\u00ED\ hlavi\u010Dku\ testu\ zadan\u00E9ho\ sc\u00E9n\u00E1\u0159e.\r\n\r\n\ @param\ scenario\r\n\ @return\ String\ s\ hlavi\u010Dkou\ testu\ zadan\u00E9ho\ sc\u00E9n\u00E1\u0159e\r\n
+comment4.params=scenario\ throwable
+comment4.target=void\ updateGameSummary(eu.pedu.adv17w_fw.scenario.Scenario,\ java.lang.Throwable)
+comment4.text=\r\n\ Zpracuje\ ukon\u010Den\u00ED\ testu,\ kter\u00E9\ se\ mus\u00ED\ prov\u00E9st\ nez\u00E1visle\ na\ tom,\r\n\ zda\ test\ prob\u011Bhl\ korektn\u011B\ nebo\ byla\ v\ jeho\ pr\u016Fb\u011Bhu\ vyhozena\ v\u00FDjimka.\r\n\r\n\ @param\ scenario\ \ Sc\u00E9n\u00E1\u0159,\ podle\ n\u011Bj\u017E\ se\ testovalo\r\n\ @param\ throwable\ P\u0159\u00EDpadn\u00E1\ zachycen\u00E1\ vyhozen\u00E1\ v\u00FDjimka\ \u010Di\ {@code\ null}\r\n
+comment5.params=step
+comment5.target=void\ verifyIsAlive(eu.pedu.adv17w_fw.scenario.ScenarioStep)
+comment5.text=\r\n\ Prov\u011B\u0159\u00ED,\ jestli\ testovan\u00E1\ hra\ spr\u00E1vn\u011B\ hl\u00E1s\u00ED\ svoji\ spu\u0161t\u011Bnost\r\n\ (p\u0159ed\ startem\ a\ po\ skon\u010Den\u00ED\ ne,\ jinak\ ano).\r\n\r\n\ @param\ shouldBeAlive\ Informace\ o\ tom,\ zda\ m\u00E1\ hra\ b\u011B\u017Eet\r\n\ @param\ step\ \ \ \ \ \ \ \ \ \ Aktu\u00E1ln\u00ED\ krok\ sc\u00E9n\u00E1\u0159e\r\n
+comment6.params=scenario
+comment6.target=void\ verifyScenarioManager(eu.pedu.adv17w_fw.scenario.Scenario)
+comment6.text=\r\n\ Prov\u011B\u0159\u00ED,\ zda\ je\ zadan\u00FD\ sc\u00E9n\u00E1\u0159\ \u0159\u00EDzen\ d\u0159\u00EDve\ dodan\u00FDm\ spr\u00E1vcem.\r\n\r\n\ @param\ scenario\ Prov\u011B\u0159ovan\u00FD\ sc\u00E9n\u00E1\u0159\r\n\ @throws\ TestException\ Zapamatovan\u00FD\ a\ sc\u00E9n\u00E1\u0159em\ dodan\u00FD\ spr\u00E1vce\ se\ li\u0161\u00ED\r\n
+comment7.params=scenario\ step
+comment7.target=void\ verifyScenarioStep(eu.pedu.adv17w_fw.scenario.Scenario,\ eu.pedu.adv17w_fw.scenario.ScenarioStep)
+comment7.text=\r\n\ Prov\u011B\u0159\u00ED\ spr\u00E1vnou\ funkci\ hry\ v\ zadan\u00E9m\ kroku\ testu.\r\n\r\n\ @param\ \ scenario\ Sc\u00E9n\u00E1\u0159\ obsahuj\u00EDc\u00ED\ dan\u00FD\ krok\r\n\ @param\ \ step\ \ \ \ \ Prov\u00E1d\u011Bn\u00FD\ krok\ zadan\u00E9ho\ sc\u00E9n\u00E1\u0159e\r\n\ @throws\ IllegalStateException\ Stav\ hry\ neodpov\u00EDd\u00E1\ tomu,\r\n\ \ \ \ \ \ \ \ \ kter\u00FD\ podle\ hodnot\ dan\u00E9\ instance\ kroku\ testu\ o\u010Dek\u00E1v\u00E1me\r\n
+numComments=8

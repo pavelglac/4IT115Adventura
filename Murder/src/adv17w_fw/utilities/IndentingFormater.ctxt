@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IndentingFormater
+comment0.text=\r\n\ Knihovn\u00ED\ t\u0159\u00EDda\ {@code\ IndentingFormater}\ poskytuje\ metody\r\n\ pro\ tisk\ vyu\u017E\u00EDvaj\u00EDc\u00ED\ vhodn\u00E9\ odsazov\u00E1n\u00ED.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=title\ text
+comment1.target=java.lang.String\ indent(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Metoda\ vr\u00E1t\u00ED\ \u0159et\u011Bzec\ konstruovan\u00FD\ tak,\r\n\ \u017Ee\ za\ text\ obdr\u017Een\u00FD\ v\ prvn\u00EDm\ parametru\ p\u0159id\u00E1\ text\ z\ druh\u00E9ho\ parametru,\r\n\ av\u0161ak\ ka\u017Ed\u00E9\ od\u0159\u00E1dkov\u00E1n\u00ED\ tohoto\ textu\ uprav\u00ED\ tak,\r\n\ \u017Ee\ za\u010D\u00E1tek\ n\u00E1sleduj\u00EDc\u00EDho\ \u0159\u00E1dku\ za\u010D\u00EDn\u00E1\ pod\ za\u010D\u00E1tkem\ p\u0159edchoz\u00EDho\ \u0159\u00E1dku\r\n\ tohoto\ textu.\r\n\r\n\ @param\ title\ \u00DAvodn\u00ED\ text\ jeho\u017E\ d\u00E9lka\ definuje\ odsazen\u00ED\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ pokra\u010Dovac\u00EDch\ \u0159\u00E1dk\u016F\ dal\u0161\u00EDho\ parametru\r\n\ @param\ text\ \ Text\ odsazovan\u00FD\ podle\ d\u00E9lky\ p\u0159edchoz\u00EDho\ parametru\r\n\ @return\ V\u00FDsledn\u00FD\ textov\u00FD\ \u0159et\u011Bzec\r\n
+comment2.params=
+comment2.target=IndentingFormater()
+comment2.text=\r\n\ Soukrom\u00FD\ konstruktor\ zabra\u0148uj\u00EDc\u00ED\ vytvo\u0159en\u00ED\ instance.\r\n
+numComments=3

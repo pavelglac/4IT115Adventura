@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=IGame
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ IGame}\ interface\ are\ responsible\ for\ the\ game\r\n\ logics.\ They\ are\ able\ to\ accept\ individual\ commands\ and\ provide\ information\r\n\ on\ current\ state\ of\ the\ game\ and\ its\ parts.\r\n\ <p>\r\n\ The\ game\ class\ has\ to\ be\ defined\ as\ a\ singleton\ and,\r\n\ besides\ methods\ declared\ in\ the\ {@link\ IGame}\ interface,\r\n\ it\ has\ to\ define\ the\ {@code\ getInstance()}\ static\ factory\ method.\r\n\ Fulfilling\ of\ this\ condition\ cannot\ be\ verified\ by\ the\ compiler,\ but\ they\r\n\ can\ by\ verified\ by\ test\ utilizing\ the\ associated\ scenario\ manager.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=boolean\ isAlive()
+comment1.text=\r\n\ Returns\ information\ if\ the\ game\ is\ currently\ running.\r\n\ The\ once\ started\ game\ cannot\ be\ started\ again.\r\n\ If\ you\ want\ to\ start\ the\ game\ again\ you\ have\ to\ finish\ it\ firstly.\r\n\r\n\ @return\ If\ the\ game\ is\ running,\ it\ returns\ {@code\ true},\r\n\ \ \ \ \ \ \ \ \ otherwise\ it\ returns\ {@code\ false}\r\n
+comment2.params=
+comment2.target=IBag\ getBag()
+comment2.text=\r\n\ Returns\ the\ bag\ to\ which\ the\ player\ will\ save\ the\ taken\ items.\r\n\r\n\ @return\ The\ bag\ to\ which\ the\ player\ saves\ the\ taken\ items\r\n
+comment3.params=
+comment3.target=java.util.Collection\ getAllActions()
+comment3.text=\r\n\ Returns\ the\ collection\ of\ all\ actions\ usable\ in\ the\ game.\r\n\r\n\ @return\ The\ collection\ of\ all\ actions\ usable\ in\ the\ game\r\n
+comment4.params=
+comment4.target=BasicActions\ getBasicActions()
+comment4.text=\r\n\ Returns\ the\ crate\ with\ names\ of\ mandatory\ actions,\ i.e.\ actions\ for\r\n\ <ul>\r\n\ \ \ <li>moving\ into\ neighboring\ place,</li>\r\n\ \ \ <li>taking\ item\ from\ the\ current\ place\ and\ putting\ it\ into\ bag,</li>\r\n\ \ \ <li>taking\ item\ from\ the\ bag\ and\r\n\ \ \ \ \ \ \ putting\ it\ down\ into\ the\ current\ place,</li>\r\n\ \ \ <li>asking\ for\ help,</li>\r\n\ \ \ <li>immediate\ game\ termination.</li>\r\n\ </ul>\r\n\r\n\ @return\ The\ crate\ with\ names\ of\ mandatory\ actions\r\n
+comment5.params=
+comment5.target=IWorld\ getWorld()
+comment5.text=\r\n\ Returns\ the\ world\ in\ which\ the\ game\ takes\ place.\r\n\r\n\ @return\ The\ world\ in\ which\ the\ game\ takes\ place\r\n
+comment6.params=command
+comment6.target=java.lang.String\ executeCommand(java.lang.String)
+comment6.text=\r\n\ Processes\ the\ given\ command\ and\ returns\ the\ answer\ to\ the\ user.\r\n\r\n\ @param\ command\ The\ entered\ command\r\n\ @return\ The\ answer\ of\ the\ game\ after\ processing\ the\ command\r\n
+comment7.params=
+comment7.target=void\ stop()
+comment7.text=\r\n\ Ends\ the\ whole\ game\ and\ returns\ the\ allocated\ resources.\r\n
+numComments=8

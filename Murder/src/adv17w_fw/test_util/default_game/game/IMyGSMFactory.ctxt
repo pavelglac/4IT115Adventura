@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IMyGSMFactory
+comment0.text=\r\n//%L+\ CZ\r\n\ Instance\ interfejsu\ {@code\ IMyGSMFactory}\ p\u0159edstavuj\u00ED\ tov\u00E1rn\u00ED\ objekty\r\n\ schopn\u00E9\ dodat\ instance\ kl\u00ED\u010Dov\u00FDch\ objekt\u016F\ hry,\ kter\u00E9\ je\ mo\u017Eno\ pou\u017E\u00EDt\r\n\ ve\ spole\u010Dn\u00FDch\ objektech\ definovan\u00FDch\ v\ bal\u00ED\u010Dku\r\n\ {@code\ eu.pedu.adv17s_fw.test_util.default_game.game.common}.\r\n//%Lx\ EN\r\n\ The\ {@code\ IMyGSMFactory}\ interface\ instances\ represent\ ...\r\n\r\n\ @param\ <TI>\ Type\ of\ items\r\n\ @param\ <TP>\ Type\ of\ places\r\n//%L-\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 0.00.0000\ \u2014\ 20yy-mm-dd\r\n
+comment1.params=
+comment1.target=eu.pedu.adv17w_fw.scenario.AScenarioManager\ getScenarioManager()
+comment1.text=\r\n\ Returns\ the\ instance\ of\ the\ scenario\ manager.\r\n\ Until\ the\ appropriate\ class\ is\ not\ fully\ defined,\r\n\ it\ throws\ the\ {@link\ UncompletedMethodException}.\r\n\r\n\ @return\ Required\ scenario\ manager\r\n\ @throws\ UncompletedMethodException\r\n\ \ \ \ \ \ \ \ \ The\ class\ defining\ the\ textual\ user\ interface\ is\ not\ yet\r\n\ \ \ \ \ \ \ \ \ acceptable\ (\=\ testable).\r\n
+comment2.params=
+comment2.target=IMyGame\ getGame()
+comment2.text=\r\n\ Returns\ the\ instance\ of\ text\ version\ of\ the\ game.\r\n\ Until\ the\ appropriate\ class\ is\ not\ fully\ defined,\r\n\ it\ throws\ the\ {@link\ UncompletedMethodException}.\r\n\r\n\ @return\ Required\ game\r\n\ @throws\ UncompletedMethodException\r\n\ \ \ \ \ \ \ \ \ The\ class\ defining\ the\ textual\ user\ interface\ is\ not\ yet\r\n\ \ \ \ \ \ \ \ \ acceptable\ (\=\ testable).\r\n
+comment3.params=
+comment3.target=eu.pedu.adv17w_fw.game_txt.IUI\ getUI()
+comment3.text=\r\n\ Returns\ the\ object\ executing\ the\ user\ interface.\r\n\ Until\ the\ appropriate\ class\ is\ not\ fully\ defined,\r\n\ it\ throws\ the\ {@link\ UncompletedMethodException}.\r\n\r\n\ @return\ Required\ user\ interface\r\n\ @throws\ UncompletedMethodException\r\n\ \ \ \ \ \ \ \ \ The\ class\ defining\ the\ textual\ user\ interface\ is\ not\ yet\r\n\ \ \ \ \ \ \ \ \ acceptable\ (\=\ testable).\r\n
+numComments=4

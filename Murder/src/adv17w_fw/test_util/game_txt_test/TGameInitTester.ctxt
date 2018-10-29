@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TGameInitTester
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ TGameInitTester}\ slou\u017E\u00ED\ k\ testov\u00E1n\u00ED\r\n\ her\ implementuj\u00EDc\u00EDch\ interfejs\ {@code\ IGame}\r\n\ a\ ovladateln\u00FDch\ podle\ sc\u00E9n\u00E1\u0159\u016F\ spravovan\u00FDch\r\n\ instanc\u00ED\ potomka\ t\u0159\u00EDdy\ {@link\ AScenarioManager}.\r\n\ <p>\r\n\ Instance\ v\u0161ak\ prov\u011B\u0159uj\u00ED\ pouze\ z\u00E1kladn\u00ED\ povinn\u00E9\ vlastnosti\ hry,\ tj.\r\n\ spr\u00E1vnou\ implementaci\ interfejsu\ {@code\ IGame}\ v\u010Detn\u011B\ dodate\u010Dn\u00FDch\ kontrakt\u016F,\r\n\ ani\u017E\ by\ se\ sna\u017Eily\ spustit\ n\u011Bkter\u00FD\ z\ definovan\u00FDch\ sc\u00E9n\u00E1\u0159\u016F.\r\n\ <p>\r\n\ Pokud\ hra\ p\u0159i\ spu\u0161t\u011Bn\u00ED\ testu\ b\u011B\u017E\u00ED,\ tak\ ji\ nejprve\ ukon\u010D\u00ED,\r\n\ a\ pak\ ji\ znovu\ odstartuj\u00ED,\ aby\ se\ inicializovala.\r\n\ Na\ konci\ testu\ ji\ op\u011Bt\ ukon\u010D\u00ED.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=gameSummary
+comment1.target=TGameInitTester(GameSummary)
+comment1.text=\r\n\ Vytvo\u0159\u00ED\ tester\ hry\ na\ z\u00E1klad\u011B\ informac\u00ED\ obdr\u017Een\u00FDch\ v\ zadan\u00E9m\ parametru.\r\n\r\n\ @param\ gameSummary\ P\u0159epravka\ se\ souhrnn\u00FDmi\ informacemi\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ o\ testovan\u00E9\ aplikaci\ a\ o\ proveden\u00FDch\ testech\r\n
+comment2.params=
+comment2.target=void\ verify()
+comment2.text=\r\n\ Prov\u011B\u0159\u00ED,\ nakolik\ se\ informace\ obdr\u017Een\u00E9\ p\u0159\u00EDmo\ od\ spu\u0161t\u011Bn\u00E9\ hry\r\n\ shoduj\u00ED\ s\ informacemi\ poskytnut\u00FDmi\ spr\u00E1vcem\ sc\u00E9n\u00E1\u0159\u016F.\r\n
+comment3.params=index
+comment3.target=void\ verifyAliveness(int)
+comment3.text=\r\n\ Prov\u011B\u0159\u00ED,\ zda\ se\ hra\ po\ ukon\u010Den\u00ED\ hl\u00E1s\u00ED\ jako\ ukon\u010Den\u00E1\r\n\ a\ naopak\ po\ spu\u0161t\u011Bn\u00ED\ jako\ \u017Eiv\u00E1.\r\n\ Po\ ukon\u010Den\u00ED\ metody\ hra\ b\u011B\u017E\u00ED\ a\ lze\ ji\ d\u00E1le\ testovat.\r\n
+comment4.params=
+comment4.target=void\ verifyBasicActions()
+comment4.text=\r\n\ Prov\u011B\u0159\u00ED,\ \u017Ee\ vracen\u00E9\ n\u00E1zvy\ povinn\u00FDch\ p\u0159\u00EDkaz\u016F\ odpov\u00EDdaj\u00ED\ n\u00E1zv\u016Fm\r\n\ odvozen\u00FDm\ ze\ spravovan\u00FDch\ sc\u00E9n\u00E1\u0159\u016F.\r\n
+comment5.params=
+comment5.target=void\ verifyGetters()
+comment5.text=\r\n\ Prov\u011B\u0159\u00ED,\ \u017Ee\ v\u0161echny\ getry\ hry\ vracej\u00ED\ alespo\u0148\ form\u00E1ln\u011B\ platn\u00E9\ objekty.\r\n
+comment6.params=name\ getter
+comment6.target=void\ verifyGetter(java.lang.String,\ java.util.function.Supplier)
+comment6.text=\r\n\ Metoda\ prov\u011B\u0159\u00ED,\ zda\ m\u00E1\ t\u0159\u00EDda\ hry\ plnohodnotn\u011B\ implementovan\u00FD\r\n\ zadan\u00FD\ getter,\ tj.\ jestli\ p\u0159\u00EDslu\u0161n\u00E1\ metoda\ vrac\u00ED\ objekt.\r\n\r\n\ @param\ <T>\ \ \ \ Typ\ vracen\u00E9\ hodnoty\r\n\ @param\ name\ \ \ N\u00E1zev\ testovan\u00E9\ metody\r\n\ @param\ getter\ Funk\u010Dn\u00ED\ objekt\ obaluj\u00EDc\u00ED\ testovanou\ metodu\r\n
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DBG_Handler
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ DBG_Handler}\ p\u0159edstavuj\u00ED\ ovlada\u010De\ (handlery)\r\n\ zpracov\u00E1vaj\u00EDc\u00ED\ v\u00FDstup\ z\ logovac\u00EDch\ objekt\u016F,\ tj.\ potomk\u016F\ t\u0159\u00EDdy\r\n\ {@link\ java.util.logging.Logger}.\r\n\ Tyto\ instance\ umo\u017E\u0148uj\u00ED\ nastavit\ v\u00FDstupn\u00ED\ datov\u00FD\ proud,\r\n\ do\ n\u011Bj\u017E\ budou\ v\u0161echny\ v\u00FDstupy\ sm\u011Brov\u00E1ny,\ p\u0159i\u010Dem\u017E\ tento\ proud\ m\u016F\u017Ee\ b\u00FDt\r\n\ i\ n\u00E1sobn\u00FD,\ tj.\ v\u00FDstupy\ p\u016Fjdou\ do\ n\u011Bkolika\ v\u00FDstupn\u00EDch\ proud\u016F\ sou\u010Dasn\u011B.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=output
+comment1.target=void\ setDefaultOutputStream(java.io.OutputStream)
+comment1.text=\r\n\ Nastav\u00ED\ implicitn\u00ED\ v\u00FDstupn\u00ED\ proud,\ kter\u00FD\ bude\ od\ t\u00E9to\ chv\u00EDle\r\n\ nastavov\u00E1n\ v\u0161em\ instanc\u00EDm.\r\n\ D\u0159\u00EDve\ vytvo\u0159en\u00E9\ instance\ nov\u00E9\ nastaven\u00ED\ neovlivn\u00ED.\r\n\r\n\ @param\ output\ Nastavovan\u00FD\ v\u00FDstupn\u00ED\ proud\r\n
+comment2.params=
+comment2.target=DBG_Handler()
+comment2.text=\r\n\r\n
+numComments=3

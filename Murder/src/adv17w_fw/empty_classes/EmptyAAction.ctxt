@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=EmptyAAction
+comment0.text=\r\n\ The\ {@code\ AAction}\ abstract\ class\ is\ a\ common\ superclass\ of\ all\ classes,\r\n\ the\ instances\ of\ which\ are\ responsible\ for\ interpretation\ of\ commands\r\n\ entered\ by\ the\ user\ playing\ the\ game.\r\n\ Name\ of\ the\ executed\ action\ is\ usually\ the\ first\ word\ of\ the\ entered\ command.\r\n\ The\ further\ words\ are\ interpreted\ as\ arguments.\r\n\ <p>\r\n\ You\ can\ define\ also\ a\ command\ that\ opens\ the\ conversation\r\n\ (e.g.\ with\ a\ person\ present\ in\ the\ room)\ and\ thus\ switch\ to\ the\ mode,\r\n\ in\ which\ the\ entered\ texts\ are\ not\ interpreted\ as\ commands,\r\n\ but\ are\ passed\ to\ the\ defined\ object\ up\ to\ moment,\r\n\ when\ the\ conversation\ ends\ and\ the\ object\ controlling\ the\ dialogue\r\n\ switches\ the\ game\ back\ to\ the\ basic\ command\ mode.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2017-Summer\r\n
+comment1.params=name\ description
+comment1.target=EmptyAAction(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Creates\ the\ parent\ sub-object\ of\ the\ created\ action.\r\n\r\n\ @param\ name\ \ Name\ of\ the\ created\ action\ \=\ text,\ which\ the\ player\ has\ to\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ enter\ as\ an\ initial\ word\ of\ the\ entered\ command\r\n\ @param\ description\ Brief\ description\ of\ the\ created\ action\r\n
+comment2.params=arguments
+comment2.target=java.lang.String\ execute(java.lang.String[])
+comment2.text=\r\n\ Processes\ the\ command\ composed\ from\ the\ given\ words\r\n\ and\ returns\ the\ game\ answer\ to\ the\ user.\r\n\ Number\ of\ word\ depends\ on\ particular\ action,\ however\ it\ must\ be\r\n\ at\ least\ one,\ because\ the\ zeroth\ element\ contains\ the\ action\ name.\r\n\ The\ remaining\ words\ are\ arguments\ of\ this\ action\ and\ they\ may\ differ\:\r\n\ the\ actions\ of\ <i>end</i>\ and\ <i>help</i>\ type\ do\ not\ have\ any,\r\n\ the\ actions\ of\ <i>go</i>\ and\ <i>take</i>\ type\ have\ one,\r\n\ the\ actions\ of\ <i>apply</i>\ type\ )\ can\ have\ two\ (e.g.\ apply\ key\ lock)\r\n\ or\ three\ (e.g.\ apply\ key\ to\ lock)\ etc.\r\n\r\n\ @param\ arguments\ Action\ arguments\ \u2013\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ their\ number\ can\ be\ different\ for\ each\ action,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ but\ for\ all\ execution\ of\ the\ same\ action\ is\ the\ same\r\n\ @return\ The\ answer\ of\ the\ game\ after\ processing\ the\ command\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ Returns\ the\ action\ description\ with\ explanation\ of\ its\ function\r\n\ and\ the\ meaning\ of\ individual\ parameters.\r\n\r\n\ @return\ Action\ description\r\n
+numComments=4

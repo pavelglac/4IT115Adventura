@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IMyGame
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ IGame}\ interface\ are\ responsible\ for\ the\ game\r\n\ logics.\ They\ are\ able\ to\ accept\ individual\ commands\ and\ provide\ information\r\n\ on\ current\ state\ of\ the\ game\ and\ its\ parts.\r\n\ <p>\r\n\ The\ game\ class\ has\ to\ be\ defined\ as\ a\ singleton\ and,\r\n\ besides\ methods\ declared\ in\ the\ {@link\ IGame}\ interface,\r\n\ it\ has\ to\ define\ the\ {@code\ getInstance()}\ static\ factory\ method.\r\n\ Fulfilling\ of\ this\ condition\ cannot\ be\ verified\ by\ the\ compiler,\ but\ they\r\n\ can\ by\ verified\ by\ test\ utilizing\ the\ associated\ scenario\ manager.\r\n\r\n\ @param\ <TI>\ Type\ of\ items\r\n\ @param\ <TP>\ Type\ of\ places\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=IMyBag\ getBag()
+comment1.text=\r\n\ Returns\ the\ bag\ to\ which\ the\ player\ will\ save\ the\ taken\ items.\r\n\r\n\ @return\ The\ bag\ to\ which\ the\ player\ saves\ the\ taken\ items\r\n
+comment2.params=
+comment2.target=IMyWorld\ getWorld()
+comment2.text=\r\n\ Returns\ the\ world\ in\ which\ the\ game\ takes\ place.\r\n\r\n\ @return\ The\ world\ in\ which\ the\ game\ takes\ place\r\n
+numComments=3

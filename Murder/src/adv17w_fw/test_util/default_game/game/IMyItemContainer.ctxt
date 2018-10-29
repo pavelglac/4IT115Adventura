@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IMyItemContainer
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ IItemContainer}\ interface\ represent\ containers\r\n\ containing\ items\ occuring\ in\ the\ game.\r\n\ The\ special\ cases\ of\ these\ containers\ are\ places\ and\ bag.\r\n\r\n\ @param\ <TI>\ Type\ of\ items\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.util.Collection\ getItems()
+comment1.text=\r\n\ Returns\ a\ collection\ of\ items\ located\ in\ the\ given\ container.\r\n\r\n\ @return\ Collection\ of\ items\ located\ in\ the\ given\ container\r\n
+comment2.params=name
+comment2.target=java.util.Optional\ getOItem(java.lang.String)
+comment2.text=\r\n\ Returns\ the\ item\ with\ the\ given\ name\ wrapped\ into\r\n\ an\ {@link\ Optional}{@code\ <}{@link\ ItemT}{@code\ >}.\r\n\r\n\ @param\ \ name\ Name\ of\ the\ asked\ item\r\n\ @return\ The\ item\ with\ the\ given\ name\ wrapped\ into\r\n\ \ \ \ \ \ \ \ \ an\ {@link\ Optional}{@code\ <}{@link\ ItemT}{@code\ >}\r\n
+comment3.params=item
+comment3.target=void\ addItem(IMyItem)
+comment3.text=\r\n\ Adds\ the\ given\ item\ into\ the\ container.\r\n\r\n\ @param\ item\ The\ item\ that\ has\ to\ be\ added\ into\ the\ container\r\n
+comment4.params=
+comment4.target=void\ initializeItems()
+comment4.text=\r\n\ Cleans\ the\ container\ and\ saves\ into\ it\ the\ items\r\n\ located\ in\ the\ given\ container\ at\ the\ game\ beginning.\r\n
+comment5.params=item
+comment5.target=void\ removeItem(IMyItem)
+comment5.text=\r\n\ Removes\ the\ given\ item\ from\ this\ container.\r\n\r\n\ @param\ item\ Item\ to\ be\ removed\r\n
+numComments=6

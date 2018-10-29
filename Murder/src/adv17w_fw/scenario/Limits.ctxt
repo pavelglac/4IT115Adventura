@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Limits
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ Limits}\ class\ serve\ as\ crates\r\n\ containing\ the\ basic\ requirements\ to\ the\ happy\ scenario;\r\n\ its\ "minimal\ sizes".\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=minSteps\ minPlaces\ minVisited\ minOwnActions
+comment1.target=Limits(int,\ int,\ int,\ int)
+comment1.text=\r\n\ Create\ the\ crate\ containing\ the\ basic\ requirements\ to\ the\ happy\ scenario;\r\n\ its\ "minimal\ sizes".\r\n\r\n\ @param\ minSteps\ \ \ \ \ \ Minimal\ number\ of\ happy\ scenario\ steps\r\n\ @param\ minPlaces\ \ \ \ \ Minimal\ number\ of\ game\ places\r\n\ @param\ minVisited\ \ \ \ Minimal\ number\ of\ visited\ places\r\n\ @param\ minOwnActions\ Minimal\ number\ of\ non-standard\ actions\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Returns\ the\ textual\ signature\ of\ this\ instance\r\n\ containing\ information\ about\ the\ requirements.\r\n\r\n\ @return\ Text\ with\ description\ of\ the\ requirements\r\n
+numComments=3

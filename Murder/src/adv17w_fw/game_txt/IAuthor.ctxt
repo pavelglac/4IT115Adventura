@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IAuthor
+comment0.text=\r\n\ Instances\ of\ interface\ {@code\ IAuthorRUP}\ know\ to\ return\ on\ request\r\n\ the\ name\ and\ identification\ string\ of\ the\ author\ of\ its\ class.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.lang.String\ getAuthorName()
+comment1.text=\r\n\ Returns\ the\ program\ author\ name\ in\ format\ <b>SURNAME\ First-name</b>,\r\n\ i.e.\ firstly\ the\ surname\ in\ capital\ letters\ followed\ by\ first\ name,\r\n\ with\ only\ the\ first\ capital\ letter,\ other\ letters\ will\ be\ small.\r\n\ If\ the\ program\ author\ has\ more\ first\ names,\ he\ can\ quote\ all\ of\ them.\r\n\r\n\ @return\ Program\ author\ name\ in\ format\ SURNAME\ First-name\r\n
+comment2.params=
+comment2.target=java.lang.String\ getAuthorID()
+comment2.text=\r\n\ Returns\ the\ program\ author\ identification\ string\r\n\ written\ in\ CAPITAL\ LETTERS.\r\n\ It\ is\ mostly\ the\ login\ into\ the\ school\ information\ system.\r\n\r\n\ @return\ Identification\ string\ (login)\ of\ the\ program\ author\r\n
+comment3.params=
+comment3.target=java.lang.String\ getAuthorString()
+comment3.text=\r\n\ Returns\ the\ string\ composed\ from\ the\ author\ ID\ followed\ by\r\n\ m-dash\ and\ the\ author's\ name.\r\n\ It\ serves\ for\ elusion\ of\ the\ impossibility\ to\ define\ a\ default\ method\r\n\ overriding\ the\ {@code\ toString()}\ method.\r\n\r\n\ @return\ Author\ ID\ and\ name\r\n
+numComments=4

@@ -1,0 +1,40 @@
+#BlueJ class context
+comment0.target=ConditionalPrinter
+comment0.text=\r\n\ Knihovn\u00ED\ t\u0159\u00EDda\ {@code\ ConditionalPrinter}\ poskytuje\ metody\r\n\ pro\ podm\u00EDn\u011Bny\ v\u00FDstup\ zadan\u00FDch\ (v\u011Bt\u0161inou\ lad\u00EDc\u00EDch)\ text\u016F\r\n\ do\ p\u0159edem\ zadan\u00E9ho\ tiskov\u00E9ho\ proudu,\ tj.\ proudu\ typu\ {@link\ PrintStream}.\r\n\ T\u00EDmto\ proudem\ m\u016F\u017Ee\ b\u00FDt\ standardn\u00ED\ v\u00FDstup,\ standardn\u00ED\ chybov\u00FD\ v\u00FDstup,\r\n\ libovoln\u00FD\ tiskov\u00FD\ proud\ nebo\ soubor,\r\n\ kter\u00FD\ se\ v\ p\u0159\u00EDpade\ pot\u0159eby\ nejprve\ vytvo\u0159\u00ED.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=ps
+comment1.target=void\ setOut(java.io.PrintStream)
+comment1.text=\r\n\ Nastav\u00ED\ v\u00FDstup\ do\ zadan\u00E9ho\ tiskov\u00E9ho\ proudu.\r\n\r\n\ @param\ ps\ C\u00EDlov\u00FD\ v\u00FDstupn\u00ED\ tiskov\u00FD\ proud\r\n
+comment10.params=e
+comment10.target=java.lang.String\ stackTrace(java.lang.Throwable)
+comment10.text=\r\n\ Vr\u00E1t\u00ED\ \u0159et\u011Bzec\ s\ v\u00FDpisem\ z\u00E1sobn\u00EDku\ odpov\u00EDdaj\u00EDc\u00EDm\ zadan\u00E9\ v\u00FDjimce.\r\n\r\n\ @param\ e\ V\u00FDjimka,\ jej\u00ED\u017E\ v\u00FDpis\ z\u00E1sobn\u00EDku\ n\u00E1s\ zaj\u00EDm\u00E1\r\n\ @return\ Text\ v\u00FDpisu\ z\u00E1sobn\u00EDku\ zadan\u00E9\ v\u00FDjimky\r\n
+comment11.params=milliseconds
+comment11.target=void\ wait(int)
+comment11.text=\r\n\ Po\u010Dk\u00E1\ zadan\u00FD\ po\u010Det\ milisekund.\r\n\ Na\ p\u0159erusen\u00ED\ reaguje\ tak,\ \u017Ee\ skon\u010D\u00ED\ \u010Dek\u00E1n\u00ED\ a\ p\u0159ed\ ukon\u010Den\u00EDm\ metody\r\n\ znovu\ po\u017E\u00E1d\u00E1\ o\ p\u0159eru\u0161en\u00ED\ vlastn\u00EDho\ vl\u00E1kna.\r\n\ O\u0161et\u0159en\u00ED\ tohoto\ p\u0159eru\u0161en\u00ED\ tak\ deleguje\ na\ volaj\u00EDc\u00ED\ metodu.\r\n\r\n\ @param\ milliseconds\ \ \ Po\u010Det\ milisekund,\ po\ n\u011B\u017E\ se\ m\u00E1\ \u010Dekat.\r\n
+comment12.params=
+comment12.target=ConditionalPrinter()
+comment12.text=Soukrom\u00FD\ konstruktor\ zabra\u0148uj\u00EDc\u00ED\ vytvo\u0159en\u00ED\ instance.
+comment2.params=path
+comment2.target=void\ setOut(java.lang.String)
+comment2.text=\r\n\ Je-li\ jako\ parametr\ zadan\u00E1\ hodnota\ <b>{@code\ out}</b>\ nebo\r\n\ <b>{@code\ err}</b>\ nastav\u00ED\ v\u00FDstup\ do\ zadan\u00E9ho\ syst\u00E9mov\u00E9ho\ proudu;\r\n\ Jin\u00E1\ podoba\ \u0159et\u011Bzce\ definuje\ cestu\ k\ souboru,\ do\ n\u011Bj\u017E\ se\ ma\ v\u00FDstup\r\n\ poslat.\ Pokud\ tento\ soubor\ neexistuje,\ metoda\ se\ jej\ pokus\u00ED\ vytvo\u0159it.\r\n\r\n\ @param\ path\ C\u00EDlov\u00FD\ v\u00FDstupn\u00ED\ tiskov\u00FD\ proud\r\n
+comment3.params=
+comment3.target=java.io.PrintStream\ getPrintStream()
+comment3.text=\r\n\ Vr\u00E1t\u00ED\ proud,\ do\ n\u011Bj\u017E\ odch\u00E1zej\u00ED\ lad\u00EDc\u00ED\ tisky\r\n\r\n\ @return\ Proud,\ do\ n\u011Bj\u017E\ odch\u00E1zej\u00ED\ lad\u00EDc\u00ED\ tisky\r\n
+comment4.params=value
+comment4.target=void\ pr(java.lang.Object)
+comment4.text=\r\n\ Je-li\ <b>{@code\ LEVEL\ >\ 0}</b>,\ vytiskne\ zadanou\ hodnotu\r\n\ bez\ z\u00E1v\u011Bre\u010Dn\u00E9ho\ od\u0159\u00E1dkov\u00E1n\u00ED.\r\n\r\n\ @param\ value\ Vypisovan\u00E1\ hodnota\r\n
+comment5.params=level\ value
+comment5.target=void\ pr(int,\ java.lang.Object)
+comment5.text=\r\n\ Je-li\ <b>{@code\ LEVEL\ >\=\ level}</b>,\ vytiskne\ zadanou\ hodnotu\r\n\ bez\ z\u00E1v\u011Bre\u010Dn\u00E9ho\ od\u0159\u00E1dkov\u00E1n\u00ED.\r\n\r\n\ @param\ level\ Hladina\ kontroln\u00EDch\ tisk\u016F\r\n\ @param\ value\ Vypisovan\u00E1\ hodnota\r\n
+comment6.params=format\ values
+comment6.target=void\ prf(java.lang.String,\ java.lang.Object[])
+comment6.text=\r\n\ Je-li\ <b>{@code\ LEVEL\ >\ 0}</b>,\ vytiskne\ po\u017Eadovan\u00FD\ text\r\n\ v\ zadan\u00E9m\ form\u00E1tu.\r\n\r\n\ @param\ format\ Form\u00E1t\ v\u00FDstupn\u00EDch\ tisk\u016F\r\n\ @param\ values\ Vypisovan\u00E9\ hodnoty\r\n
+comment7.params=level\ format\ values
+comment7.target=void\ prf(int,\ java.lang.String,\ java.lang.Object[])
+comment7.text=\r\n\ Je-li\ <b>{@code\ LEVEL\ >\=\ level}</b>,\ vytiskne\ zadan\u00E9\ hodnoty\r\n\ v\ zadan\u00E9m\ form\u00E1tu.\r\n\r\n\ @param\ level\ \ Hladina\ kontroln\u00EDch\ tisk\u016F\r\n\ @param\ format\ Form\u00E1t\ v\u00FDstupn\u00EDch\ tisk\u016F\r\n\ @param\ values\ Vypisovan\u00E9\ hodnoty\r\n
+comment8.params=value
+comment8.target=void\ prln(java.lang.Object)
+comment8.text=\r\n\ Je-li\ <b>{@code\ LEVEL\ >\ 0}</b>,\ vytiskne\ zadanou\ hodnotu\r\n\ a\ od\u0159\u00E1dkuje.\r\n\r\n\ @param\ value\ Vypisovan\u00E1\ hodnota\r\n
+comment9.params=level\ value
+comment9.target=void\ prln(int,\ java.lang.Object)
+comment9.text=\r\n\ Je-li\ <b>{@code\ LEVEL\ >\=\ level}</b>,\ vytiskne\ zadanou\ hodnotu\r\n\ a\ od\u0159\u00E1dkuje.\r\n\r\n\ @param\ level\ Hladina\ kontroln\u00EDch\ tisk\u016F\r\n\ @param\ value\ Vypisovan\u00E1\ hodnota\r\n
+numComments=13

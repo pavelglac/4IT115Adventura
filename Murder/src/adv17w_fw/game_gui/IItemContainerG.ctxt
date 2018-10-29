@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IItemContainerG
+comment0.text=\r\n\ Instance\ interfejsu\ {@code\ IItemContainerG}\ p\u0159edstavuj\u00ED\ kontejnery,\r\n\ kter\u00E9\ mohou\ obsahovat\ objekty\ vystupuj\u00EDc\u00ED\ ve\ h\u0159e.\r\n\ Speci\u00E1ln\u00EDmi\ p\u0159\u00EDpady\ t\u011Bchto\ kontejner\u016F\ jsou\ prostory\ a\ batohy.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.util.Collection\ getItems()
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ kolekci\ objekt\u016F\ nach\u00E1zej\u00EDc\u00EDch\ se\ v\ dan\u00E9m\ kontejneru.\r\n\ Oproti\ rodi\u010Dovsk\u00E9\ metod\u011B\ vrac\u00ED\ kolekci\ objekt\u016F\ implementuj\u00EDc\u00EDch\r\n\ interfejs\ {@link\ IItemG}.\r\n\r\n\ @return\ Kolekce\ objekt\u016F\ nach\u00E1zej\u00EDc\u00EDch\ se\ v\ dan\u00E9m\ kontejneru\r\n
+numComments=2

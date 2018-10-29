@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AScenarioManagerG
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ {@code\ AScenarioManagerG}\ spravuj\u00ED\ sc\u00E9n\u00E1\u0159e\ sv\u00E9\ hry\r\n\ p\u0159edpokl\u00E1daj\u00EDc\u00ED\ grafick\u00E9\ u\u017Eivatelsk\u00E9\ rozhran\u00ED.\r\n\ Ka\u017Ed\u00E1\ hra\ mus\u00ED\ m\u00EDt\ k\ dispozici\ minim\u00E1ln\u011B\r\n\ <b>z\u00E1kladn\u00ED\ \u00FAsp\u011B\u0161n\u00FD\ sc\u00E9n\u00E1\u0159</b>,\r\n\ kter\u00FD\ demonstruje\ n\u011Bkterou\ z\ mo\u017En\u00FDch\ cest\ \u00FAsp\u011B\u0161n\u00E9ho\ dokon\u010Den\u00ED\ hry,\r\n\ a\ <b>chybov\u00FD\ sc\u00E9n\u00E1\u0159</b>,\r\n\ kter\u00FD\ demonstruje\ reakci\ hry\ na\ chybn\u011B\ zadan\u00E9\ p\u0159\u00EDkazy.\r\n\ <p>\r\n\ Jednotliv\u00E9\ sc\u00E9n\u00E1\u0159e\ se\ mus\u00ED\ li\u0161it\ sv\u00FDm\ n\u00E1zvem,\r\n\ p\u0159i\u010Dem\u017E\ n\u00E1zvy\ z\u00E1kladn\u00EDho\ \u00FAsp\u011B\u0161n\u00E9ho\ a\ z\u00E1kladn\u00EDho\ chybov\u00E9ho\ sc\u00E9n\u00E1\u0159e\r\n\ jsou\ p\u0159edem\ pevn\u011B\ d\u00E1ny\ a\ nen\u00ED\ je\ mo\u017Eno\ zm\u011Bnit.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=eu.pedu.adv17w_fw.game_gui.IGSMFactoryG\ getDefaultFactory()
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ tov\u00E1rn\u00ED\ objekt\ poskytuj\u00EDc\u00ED\ kl\u00ED\u010Dov\u00E9\ objekty\ uk\u00E1zkov\u00E9\ hry.\r\n\r\n\ @return\ Po\u017Eadovan\u00FD\ tov\u00E1rn\u00ED\ objekt\r\n
+comment2.params=
+comment2.target=eu.pedu.adv17w_fw.game_gui.IGameG\ getDemoGameG()
+comment2.text=\r\n\ Vr\u00E1t\u00ED\ instanci\ hry,\ kterou\ m\u016F\u017Eeme\ hr\u00E1t\ podle\ spravovan\u00FDch\ sc\u00E9n\u00E1\u0159\u016F.\r\n\ Metoda\ v\u0161ak\ nezaru\u010Duje\ stav\ hry,\ tj.\ jestli\ je\ nap\u0159.\ pr\u00E1v\u011B\ rozehran\u00E1\r\n\ a\ nebude\ ji\ proto\ t\u0159eba\ ji\ p\u0159ed\ dal\u0161\u00EDm\ spu\u0161t\u011Bn\u00EDm\ nejprve\ ukon\u010Dit.\r\n\r\n\ @return\ Instance\ hry\ hrateln\u00E9\ podle\ spravovan\u00FDch\ sc\u00E9n\u00E1\u0159\u016F\r\n
+comment3.params=factoryClass
+comment3.target=AScenarioManagerG(java.lang.Class)
+comment3.text=\r\n\ Vytvo\u0159\u00ED\ nov\u00E9ho\ spr\u00E1vce\ sc\u00E9n\u00E1\u0159\u016F\ spravuj\u00EDc\u00EDho\ v\u0161echny\ sc\u00E9n\u00E1\u0159e\ hry,\r\n\ kter\u00E1\ je\ instanc\u00ED\ t\u0159\u00EDdy\ zadan\u00E9\ sv\u00FDm\ class-objektem.\r\n\ <p>\r\n\ Spr\u00E1vce,\ jeho\u017E\ je\ dan\u00E1\ instance\ rodi\u010Dovsk\u00FDm\ podobjektem,\r\n\ nen\u00ED\ po\ vytvo\u0159en\u00ED\ tohoto\ rodi\u010De\ je\u0161t\u011B\ pln\u011B\ funk\u010Dn\u00ED\ -\ takov\u00FDm\ se\ stane\r\n\ a\u017E\ pot\u00E9,\ co\ budou\ do\ jeho\ spr\u00E1vy\ p\u0159ed\u00E1ny\ v\u0161echny\ po\u017Eadovan\u00E9\ sc\u00E9n\u00E1\u0159e\r\n\ a\ seznam\ spravovan\u00FDch\ sc\u00E9n\u00E1\u0159\u016F\ se\ zalep\u00ED.\r\n\r\n\ @param\ factoryClass\ \ Class-objekt\ t\u0159\u00EDdy,\ kter\u00E1\ je\ schopna\ zprost\u0159edkovat\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ instanci\ vytv\u00E1\u0159en\u00E9ho\ spr\u00E1vce\ sc\u00E9n\u00E1\u0159\u016F.\r\n
+comment4.params=
+comment4.target=java.lang.Class\ getFactoryClass()
+comment4.text=\r\n\ Returns\ the\ class-object\ of\ the\ factory\ class,\ the\ instances\ of\ which\r\n\ can\ mediate\ receiving\ of\ all\ key\ objects\ of\ the\ application,\r\n\ the\ part\ of\ which\ is\ also\ the\ mother\ class\ of\ this\ instance.\r\n\r\n\ @return\ The\ class-object\ of\ the\ factory\ class\r\n
+comment5.params=
+comment5.target=void\ testGameG()
+comment5.text=\r\n\ Test\ demonstruj\u00EDc\u00ED\ hran\u00ED\ hry\ na\ implicitn\u00EDm\ GUI.\r\n
+numComments=6

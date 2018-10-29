@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IGSMFactoryProductG
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ IGSMFactoryProduct}\ interface\ represent\ the\ object\r\n\ that\ knows\ the\ key\ factory\ class\ of\ their\ application.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.lang.Class\ getFactoryClass()
+comment1.text=\r\n\ Returns\ the\ class-object\ of\ the\ factory\ class,\ the\ instances\ of\ which\r\n\ can\ mediate\ receiving\ of\ all\ key\ objects\ of\ the\ application,\r\n\ the\ part\ of\ which\ is\ also\ the\ mother\ class\ of\ this\ instance.\r\n\r\n\ @return\ The\ class-object\ of\ the\ factory\ class\r\n
+comment2.params=
+comment2.target=IGSMFactoryG\ getFactory()
+comment2.text=\r\n\ Returns\ the\ the\ factory\ object,\ which\ can\ mediate\ receiving\ this\ object\r\n\ together\ with\ all\ key\ objects\ of\ the\ application,\r\n\ the\ part\ of\ which\ this\ object\ is.\r\n\r\n\ @return\ The\ class-object\ of\ the\ factory\ class\r\n
+numComments=3

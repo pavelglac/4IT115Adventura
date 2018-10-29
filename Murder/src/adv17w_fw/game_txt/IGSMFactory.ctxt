@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IGSMFactory
+comment0.text=\r\n\ {@code\ IGSMFactory\ }\ interface\ instances\ represent\r\n\ the\ factory\ objects\ which\ are\ able\ to\ deliver\ the\ game\ instance,\r\n\ an\ instance\ of\ scenario\ manager\ of\ this\ game\r\n\ and\ an\ instance\ of\ the\ text\ user\ interface.\r\n\ As\ long\ as\ some\ of\ these\ objects\ are\ not\ yet\ fully\ defined,\r\n\ the\ methods\ may\ throw\ the\r\n\ {@link\ eu.pedu.adv17w_fw.utilities.UncompletedMethodException}.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=factoryClass
+comment1.target=IGSMFactory\ getInstanceOfFactory(java.lang.Class)
+comment1.text=\r\n\ Returns\ the\ instance\ of\ the\ given\ factory\ class\ with\ a\ nullary\r\n\ (\=&nbsp;parameterless)\ constructor.\r\n\r\n\ @param\ <T>\ \ \ \ \ \ \ \ \ \ \ Factory\ class\ type\r\n\ @param\ factoryClass\ \ Factory\ class\ class-object\r\n\ @return\ Factory\ object\r\n\ @throws\ IllegalArgumentException\ Creation\ of\ the\ instance\ failed\r\n
+comment2.params=
+comment2.target=eu.pedu.adv17w_fw.scenario.AScenarioManager\ getScenarioManager()
+comment2.text=\r\n\ Returns\ the\ instance\ of\ the\ scenario\ manager.\r\n\ Until\ the\ appropriate\ class\ is\ not\ fully\ defined,\r\n\ it\ throws\ the\ {@link\ UncompletedMethodException}.\r\n\r\n\ @return\ Required\ scenario\ manager\r\n\ @throws\ UncompletedMethodException\r\n\ \ \ \ \ \ \ \ \ The\ class\ defining\ the\ textual\ user\ interface\ is\ not\ yet\r\n\ \ \ \ \ \ \ \ \ acceptable\ (\=\ testable).\r\n
+comment3.params=
+comment3.target=IGame\ getGame()
+comment3.text=\r\n\ Returns\ the\ instance\ of\ text\ version\ of\ the\ game.\r\n\ Until\ the\ appropriate\ class\ is\ not\ fully\ defined,\r\n\ it\ throws\ the\ {@link\ UncompletedMethodException}.\r\n\r\n\ @return\ Required\ game\r\n\ @throws\ UncompletedMethodException\r\n\ \ \ \ \ \ \ \ \ The\ class\ defining\ the\ textual\ user\ interface\ is\ not\ yet\r\n\ \ \ \ \ \ \ \ \ acceptable\ (\=\ testable).\r\n
+comment4.params=
+comment4.target=IUI\ getUI()
+comment4.text=\r\n\ Returns\ the\ object\ executing\ the\ user\ interface.\r\n\ Until\ the\ appropriate\ class\ is\ not\ fully\ defined,\r\n\ it\ throws\ the\ {@link\ UncompletedMethodException}.\r\n\r\n\ @return\ Required\ user\ interface\r\n\ @throws\ UncompletedMethodException\r\n\ \ \ \ \ \ \ \ \ The\ class\ defining\ the\ textual\ user\ interface\ is\ not\ yet\r\n\ \ \ \ \ \ \ \ \ acceptable\ (\=\ testable).\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IAuthorDemo
+comment0.text=\r\n\ {@code\ IAuthorDemo}\ instances\ know\ to\ return\ on\ request\r\n\ the\ name\ and\ identification\ string\ of\ the\ author\ of\ its\ class\r\n\ and\ the\ class-object\ of\ the\ factory\ class;\r\n\ these\ values\ are\ saved\ in\ their\ static\ constants\r\n\ {@link\ \#AUTHOR_NAME},\ {@link\ \#AUTHOR_ID}\ and\ {@link\ \#FACTORY_CLASS}.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.lang.String\ getAuthorName()
+comment1.text=\r\n\ Returns\ the\ program\ author\ name\ in\ format\ <b>SURNAME\ First-name</b>,\r\n\ i.e.\ firstly\ the\ surname\ in\ capital\ letters\ followed\ by\ first\ name,\r\n\ with\ only\ the\ first\ capital\ letter,\ other\ letters\ will\ be\ small.\r\n\ If\ the\ program\ author\ has\ more\ first\ names,\ he\ can\ quote\ all\ of\ them.\r\n\r\n\ @return\ Program\ author\ name\ in\ format\ SURNAME\ First-name\r\n
+comment2.params=
+comment2.target=java.lang.String\ getAuthorID()
+comment2.text=\r\n\ Returns\ the\ program\ author\ identification\ string\r\n\ written\ in\ CAPITAL\ LETTERS.\r\n\ It\ is\ mostly\ the\ login\ into\ the\ school\ information\ system.\r\n\r\n\ @return\ Identification\ string\ (login)\ of\ the\ program\ author\r\n
+numComments=3

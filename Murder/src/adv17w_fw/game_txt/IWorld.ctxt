@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IWorld
+comment0.text=\r\n\ An\ instance\ of\ the\ {@code\ IWorld}\ interface\ represents\ the\ game\ world.\r\n\ It\ should\ be\ defined\ as\ a\ singleton.\r\n\ It\ is\ responsible\ for\ arrangement\ of\ individual\ places\ and\ keeps\ information,\r\n\ in\ which\ place\ the\ player\ is\ just\ situated.\r\n\ The\ mutual\ arrangement\ may\ change\ during\ the\ game,\r\n\ the\ places\ can\ gain\ and/or\ lose\ their\ neighbors.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.util.Collection\ getAllPlaces()
+comment1.text=\r\n\ Returns\ the\ collection\ of\ all\ places\ of\ the\ game.\r\n\r\n\ @return\ Collection\ of\ all\ places\ performing\ in\ the\ game\r\n
+comment2.params=
+comment2.target=IPlace\ getCurrentPlace()
+comment2.text=\r\n\ Returns\ the\ current\ place,\r\n\ i.e.\ to\ the\ place\ in\ which\ the\ player\ is\ just\ situated.\r\n\r\n\ @return\ The\ place\ in\ which\ the\ player\ is\ just\ situated\r\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IMyItem
+comment0.text=\r\n\ Instances\ of\ the\ {@code\ IItem}\ interface\ represent\ the\ items\ in\ places.\r\n\ These\ items\ can\ be\ things\ as\ well\ as\ persons\ or\ other\ entities\r\n\ (flowers,\ light,\ charm\ etc.)\r\n\ <p>\r\n\ Some\ of\ these\ items\ can\ qualify\ certain\ game\ or\ place\ properties\r\n\ (the\ light\ is\ on),\ others\ may\ be\ determined\ for\ taken\ and\ so\ gain\ a\ property\r\n\ (e.g.\ ability\ to\ go\ through\ a\ strange\ place),\ or\ capability\r\n\ (e.g.\ key\ for\ unlocking\ the\ door,\ sward\ for\ killing\ the\ monster,\r\n\ money\ for\ bribing\ the\ guard\ etc.),\r\n\ <p>\r\n\ You\ can\ define\ items\ which\ serve\ simultaneously\ as\ places\ and\ can\r\n\ therefore\ contain\ other\ items\ (e.g.\ safe,\ window\ etc.).\r\n\ You\ have\ to\ enter\ in\ these\ items/places\ with\ a\ special\ command\r\n\ (e.g.\ <i>open\ safe</i>,\ <i>look_from\ window</i>,\ etc.)\ and\ leave\ them\ with\r\n\ another\ special\ command\ (e.g.\ <i>close\ safe</i>,\ <i>shut\ window</i>\ etc.).\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=int\ getWeight()
+comment1.text=\r\n\ Returns\ the\ item\ weight,\ and/or\ the\ corresponding\ characteristics.\r\n\ The\ items\ that\ cannot\ be\ raised\r\n\ have\ higher\ weight\ than\ the\ bag\ capacity\ is.\r\n\r\n\ @return\ Weight\ of\ the\ item\r\n
+comment2.params=
+comment2.target=boolean\ isAlcoholic()
+comment2.text=\r\n\ Returns\ information\ if\ it\ is\ the\ alcoholic\ drink.\r\n\r\n\ @return\ If\ it\ is\ the\ alcoholic\ drink,\ it\ returns\ {@code\ true},\r\n\ \ \ \ \ \ \ \ \ otherwise\ it\ returns\ {@code\ false}\r\n
+numComments=3

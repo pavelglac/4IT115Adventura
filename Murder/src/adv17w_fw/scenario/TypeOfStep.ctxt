@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TypeOfStep
+comment0.text=\r\n\ {@code\ TypeOfStep}\ enum\ type\ instances\ represent\r\n\ the\ possible\ types\ of\ scenario\ steps.\r\n\ The\ knowledge\ of\ these\ types\ allows\ to\ check\ the\ correctness\r\n\ of\ data\ specified\ for\ particular\ steps.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=subtype\ paramCount\ group
+comment1.target=TypeOfStep(int,\ int,\ TypeOfStep)
+comment1.text=\r\n\ Defines\ the\ new\ type\ of\ step\ according\ to\ the\ argument\ values\r\n\ it\ assigns\ the\ subtype\ and\ the\ required\ type\ of\ parameters.\r\n\r\n\ @param\ subtype\ \ \ \ Subtype\ ordinal\ number\ (to\ have\ the\ code\ shorter)\r\n\ @param\ paramCount\ Required\ number\ of\ parameters/arguments.\ <br>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ value\ {@code\ -1}\ is\ used\ with\ types\ of\ commands,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ where\ it\ is\ not\ usable\ to\ study\ this\ number.\r\n\ @param\ group\ \ \ \ \ \ The\ leader\ of\ the\ group\ of\ equivalent\ types\r\n
+comment2.params=
+comment2.target=TypeOfStep.Subtype\ getSubtype()
+comment2.text=\r\n\ Returns\ the\ subtype\ of\ this\ type.\r\n\r\n\ @return\ Subtype\ of\ this\ type\r\n
+numComments=3

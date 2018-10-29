@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IPlaceG
+comment0.text=\r\n\ Instance\ interfejsu\ {@code\ IPlaceG}\ p\u0159estavuj\u00ED\ m\u00EDstnosti\ \u010Di\ jejich\r\n\ ekvivalenty.\ Dosa\u017Een\u00ED\ m\u00EDstnosti\ si\ m\u016F\u017Eeme\ p\u0159edstavovat\ jako\ \u010D\u00E1ste\u010Dn\u00FD\ c\u00EDl,\r\n\ kter\u00E9ho\ se\ hr\u00E1\u010D\ ve\ h\u0159e\ sna\u017E\u00ED\ dos\u00E1hnout.\r\n\ M\u00EDstnosti\ mohou\ obsahovat\ r\u016Fzn\u00E9\ p\u0159edm\u011Bty,\r\n\ kter\u00E9\ mohou\ hr\u00E1\u010Di\ pomoci\ v\ dosa\u017Een\u00ED\ c\u00EDle\ hry.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2016-Winter\r\n
+comment1.params=
+comment1.target=java.awt.Point\ getPosition()
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ pozici\ m\u00EDstnosti\ na\ pl\u00E1nu\ hry,\r\n\ p\u0159esn\u011Bji\ pozici\ hr\u00E1\u010De\ nach\u00E1zej\u00EDc\u00EDho\ se\ v\ dan\u00E9\ m\u00EDstnosti.\r\n\ Na\ t\u00E9to\ pozici\ bude\ hr\u00E1\u010D\ p\u0159i\ pobytu\ v\ dan\u00E9\ m\u00EDstnosti\ zobrazen.\r\n\r\n\ @return\ Po\u017Eadovan\u00E1\ pozice\r\n
+comment2.params=
+comment2.target=java.util.Collection\ getNeighbors()
+comment2.text=\r\n\ Vr\u00E1t\u00ED\ kolekci\ prostor\u016F,\ do\ nich\u017E\ je\ mo\u017Eno\ se\ z\ tohoto\ prostoru\ p\u0159esunout.\r\n\r\n\ @return\ Po\u017Eadovan\u00E1\ kolekce\r\n
+numComments=3
