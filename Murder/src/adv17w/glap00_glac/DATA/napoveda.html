@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta charset="utf-8">
+<title>Nápověda ke hře</title>
+
+</head>
+  
+<body lang="cs" style="padding: 10px">
+<h1>Nápověda ke hře</h1>
+<p>
+  Jedná se o jednoduchou „adventure“ hru s grafickým rozhraním. Vaším úkolem 
+  je procházet jednotlivými místnostmi, sbírat věci, prozkoumávat, přenášet 
+  je a plnit logické úkoly. Obsah batohu je rovněž graficky realizován – 
+  věci se zobrazují v ůevém panelu. Cílem hry je obvinit vraha
+</p>
+
+<h2>Zadávání příkazů</h2>
+
+<p>
+  Příkazy se zadávají do textového pole ve formátu <b>příkaz</b><i>(mezera)</i><b>parametr</b>
+  <i>(mezera)</i><b>parametr</b>. 
+  Většina příkazů má pouze jeden parametr, avšak příkaz "předat" má 2 parametry. V tomto případě se 
+  parametry odpovídají pořadí: <b>co se má dát</b><i>(mezera)</i><b>komu se to má dát</b>.  Příklad:
+</p>
+
+<pre>
+  předat kamera kolega
+</pre>
+
+
+
+<h2>Seznam příkazů</h2>
+<h3>PŘEDAT</h3>
+<p>Lze prozkoumat pouze objekty, které jsou v aktuální lokaci.
+Prozkoumání může pomoci k dopadení vraha</p>
+
+<h3>POLOŽ</h3>
+<p>Přesune zadaný h-objekt z batohu do aktuálního prostoru.</p>
+
+<h3>PROZKOUMAT</h3>
+<p>Lze prozkoumat pouze objekty, které jsou v aktuální lokaci.
+Prozkoumání může pomoci k dopadení vraha</p>
+
+<h3>VEZMI</h3>
+<p>Přesune zadaný h-objekt z aktuálního prostoru do batohu.
+Přesouvá přitom pouze přenositelné h-objekty.</p>
+
+<h3>PROMLUVIT</h3>
+<p>Vyslechnou si může pouze živé bytosti ve hře</p>
+
+<h3>OBVINIT</h3>
+<p>Obvinit lze pouze živou bytost
+Pokud obviníte nesprávnou osobu, tak prohrajete.</p>
+
+<h3>JDI</h3>
+<p>Metoda přesune hráče do sousední místnosti zadané v parametru.
+Vyžaduje však, aby tato místnost byla sousedem aktuální místnosti,
+protože jinak přesun neprovede a bude příkaz považovat za chybný</p>
+
+<h3>KONEC</h3>
+<p>Ukončení hry.</p>
+
+<h3>?</h3>
+<p>Vypíše nápovědu s názvy a stručnými popisy dostupných příkazů.</p>
+
+
+  </body>
+</html>

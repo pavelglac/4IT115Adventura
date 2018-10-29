@@ -187,8 +187,9 @@ public class UI_JavaFX
         Menu menuSoubor = new Menu("Soubor");
 
         MenuItem novaHra = new MenuItem("Nová hra",
-        new ImageView(new Image(UI_JavaFX.class.getResourceAsStream("../zdroje/new.gif"))));
+        new ImageView(new Image(UI_JavaFX.class.getResourceAsStream("../DATA/new.gif"))));
         novaHra.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
             public void handle(ActionEvent t)
             
             {
@@ -201,6 +202,7 @@ public class UI_JavaFX
         novaHra.setAccelerator(KeyCombination.keyCombination("Ctrl+N"));
         MenuItem konec = new MenuItem("Konec");
         konec.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
             public void handle(ActionEvent t) {
                 System.exit(0);
             }
@@ -215,6 +217,7 @@ public class UI_JavaFX
         menuNapoveda.getItems().addAll(oProgramu, napovedaKAplikaci);
         menuBar.getMenus().addAll(menuSoubor, menuNapoveda);
         oProgramu.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
             public void handle(ActionEvent t) {
                 // obsluha události O programu
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -234,7 +237,7 @@ public class UI_JavaFX
                 stage.setTitle("Nápověda k aplikaci");
                 WebView webview = new WebView();
                 webview.getEngine().load(
-                        UI_JavaFX.class.getResource("/zdroje/napoveda.htm").toExternalForm()
+                        UI_JavaFX.class.getResource("../DATA/napoveda.html").toExternalForm()
                 );
                 stage.setScene(new Scene(webview, 500, 500));
                 stage.show();
@@ -286,17 +289,14 @@ public class UI_JavaFX
      */
     public String decorate(String answer, IGame game) {
 
-        IBag bag = game.getBag();
-        Collection<? extends IItem> bagItems = bag.getItems();
         IWorld world = game.getWorld();
         IPlace place = world.getCurrentPlace();
         Collection<? extends IItem> placeItems = place.getItems();
 
         String result = answer
-                + "\n\n"
+                + "\n"
                 + "\nPrávě se nacházíte: " + place
                 + "\nVěci v této lokaci: " + placeItems
-                + "\nVěci v kapsách " + bagItems
                 + "\nPro nápovědu zadeje ? "
                 + "\n";
         return result;
