@@ -92,7 +92,7 @@ public class Town
         seznamPozorovatelu = new ArrayList<>();
 
         startingRoom = new Place("STANICE",
-                20.00, 30.00,
+                250.00, 280.00,
                 new String[]{"ULICE"},
                 NOT_MOVABLE + "KOLEGA",
                 STANDARD + "ODZNAK"
@@ -101,7 +101,7 @@ public class Town
         rooms.add(startingRoom);
 
         rooms.add(new Place("ULICE",
-                10.00, 20.00,
+                285.00, 215.00,
                 new String[]{
                     "STANICE", "MÍSTO_ČINU", "ŠKOLKA", "RADNICE", "HOSPODA"},
                 STANDARD + "ODPADKY",
@@ -109,7 +109,7 @@ public class Town
         ));
 
         rooms.add(new Place("MÍSTO_ČINU",
-                30.00, 50.00,
+                110.00, 270.00,
                 new String[]{"ULICE"},
                 NOT_MOVABLE + "MRTVOLA",
                 STANDARD + "NŮŽ",
@@ -117,7 +117,7 @@ public class Town
         ));
 
         rooms.add(new Place("ŠKOLKA",
-                10.00, 50.00,
+                395.00, 210.00,
                 new String[]{"ULICE"},
                 NOT_MOVABLE + "UČITELKA",
                 NOT_MOVABLE + "DÍTĚ",
@@ -125,13 +125,13 @@ public class Town
         ));
 
         rooms.add(new Place("RADNICE",
-                50.00, 10.00,
+                410.00, 110.00,
                 new String[]{"ULICE"},
                 STANDARD + "PAPÍR"
         ));
 
         rooms.add(new Place("HOSPODA",
-                60.00, 60.00,
+                250.00, 175.00,
                 new String[]{"ULICE"},
                 NOT_MOVABLE + "OPILEC",
                 STANDARD + "SEKERA",
